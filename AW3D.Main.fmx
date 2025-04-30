@@ -1,0 +1,3225 @@
+object FormMain: TFormMain
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 686
+  ClientWidth = 1092
+  Quality = HighQuality
+  Transparency = True
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Viewport3D1: TViewport3D
+    Align = Client
+    Color = claNull
+    Size.Width = 1092.000000000000000000
+    Size.Height = 686.000000000000000000
+    Size.PlatformDefault = False
+    OnPaint = Viewport3D1Paint
+    OnResize = Viewport3D1Resize
+    OnResized = Viewport3D1Resize
+    object Dummy1: TDummy
+      Position.X = 545.000000000000000000
+      Position.Y = 340.000000000000000000
+      Width = 25.000000000000000000
+      Height = 25.000000000000000000
+      Depth = 25.000000000000000000
+      Projection = Screen
+      object Layer3DMain: TLayer3D
+        Align = Center
+        Height = 650.000000000000000000
+        Position.Z = 60.000000000000000000
+        Projection = Screen
+        Resolution = 50
+        StyleLookup = 'backgroundstyle'
+        Transparency = True
+        Width = 1070.000000000000000000
+        ZWrite = False
+        OnMouseDown = Layer3DMainMouseDown
+        object Sphere1: TSphere
+          Position.X = 150.000000000000000000
+          Position.Y = 340.000000000000000000
+          Position.Z = -30.000000000000000000
+          Width = 80.000000000000000000
+          Height = 80.000000000000000000
+          Depth = 80.000000000000000000
+          Projection = Screen
+          HitTest = False
+          SubdivisionsAxes = 50
+          SubdivisionsHeight = 50
+          MaterialSource = LightMaterialSourceClouds
+          object Sphere2: TSphere
+            Position.X = -25.000000000000000000
+            Position.Y = 8.000000000000000000
+            Position.Z = -10.000000000000000000
+            Width = 70.000000000000000000
+            Height = 70.000000000000000000
+            Depth = 70.000000000000000000
+            Projection = Screen
+            HitTest = False
+            SubdivisionsAxes = 50
+            SubdivisionsHeight = 50
+            MaterialSource = LightMaterialSourceClouds
+          end
+          object Sphere3: TSphere
+            Position.X = 35.000000000000000000
+            Position.Y = 8.000000000000000000
+            Position.Z = -10.000000000000000000
+            Width = 70.000000000000000000
+            Height = 70.000000000000000000
+            Depth = 70.000000000000000000
+            Projection = Screen
+            HitTest = False
+            SubdivisionsAxes = 50
+            SubdivisionsHeight = 50
+            MaterialSource = LightMaterialSourceClouds
+          end
+          object FloatAnimation1: TFloatAnimation
+            AnimationType = InOut
+            AutoReverse = True
+            Duration = 1.000000000000000000
+            Interpolation = Sinusoidal
+            Loop = True
+            PropertyName = 'Position.Y'
+            StartValue = 340.000000000000000000
+            StopValue = 350.000000000000000000
+          end
+        end
+        object Rectangle1: TRectangle
+          Align = Client
+          Fill.Kind = Gradient
+          Fill.Gradient.Points = <
+            item
+              Color = xFF0C2C4E
+              Offset = 0.000000000000000000
+            end
+            item
+              Color = xFF010D2A
+              Offset = 1.000000000000000000
+            end>
+          Fill.Gradient.StartPosition.X = 0.588163495063781700
+          Fill.Gradient.StopPosition.X = 0.411836504936218300
+          HitTest = False
+          Size.Width = 1070.000000000000000000
+          Size.Height = 650.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          XRadius = 10.000000000000000000
+          YRadius = 10.000000000000000000
+          object Rectangle3: TRectangle
+            Fill.Kind = Gradient
+            Fill.Gradient.Points = <
+              item
+                Color = xFF04132A
+                Offset = 0.003105590119957924
+              end
+              item
+                Color = xFF052742
+                Offset = 1.000000000000000000
+              end>
+            Fill.Gradient.StopPosition.X = 1.000000000000000000
+            HitTest = False
+            Position.X = 24.000000000000000000
+            Position.Y = 59.000000000000000000
+            Size.Width = 241.000000000000000000
+            Size.Height = 160.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = x1EFFFFFF
+            XRadius = 15.000000000000000000
+            YRadius = 15.000000000000000000
+            object Line1: TLine
+              Align = Top
+              HitTest = False
+              LineType = Bottom
+              Size.Width = 241.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Color = x1EFFFFFF
+              object Label2: TLabel
+                Align = Client
+                StyledSettings = []
+                Size.Width = 159.000000000000000000
+                Size.Height = 33.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Family = 'Roboto'
+                TextSettings.Font.Size = 11.000000000000000000
+                TextSettings.Font.StyleExt = {00020000000000000004000000}
+                TextSettings.FontColor = claWhite
+                TextSettings.WordWrap = False
+                Text = 'TODAY'
+                TabOrder = 1
+              end
+              object Path1: TPath
+                Align = Left
+                Data.Path = {
+                  2E0000000000000000008041000008410200000000008041EC94034102000000
+                  146B7C410000004102000000000078410000004102000000EC94734100000041
+                  0200000000007041EC9403410200000000007041000008410100000000007041
+                  0000844102000000000070418A35864102000000EC9473410000884102000000
+                  0000784100008841010000000000A44100008841020000008A35A64100008841
+                  020000000000A8418A358641020000000000A84100008441020000000000A841
+                  76CA8141020000008A35A64100008041020000000000A4410000804101000000
+                  0000804100008041030000000000804100000841000000000000F04100008041
+                  020000000000F04123DBBD410200000023DBBD410000F0410200000000008041
+                  0000F04102000000BA4904410000F041020000000000004023DBBD4102000000
+                  00000040000080410200000000000040BA49044102000000BA49044100000040
+                  0200000000008041000000400200000023DBBD4100000040020000000000F041
+                  BA490441020000000000F04100008041000000000000E8410000804102000000
+                  0000E841B81E0D4102000000A470B94100004040020000000000804100004040
+                  02000000B81E0D41000040400200000000004040B81E0D410200000000004040
+                  000080410200000000004040A470B94102000000B81E0D410000E84102000000
+                  000080410000E84102000000A470B9410000E841020000000000E841A470B941
+                  020000000000E84100008041}
+                Fill.Color = claWhite
+                HitTest = False
+                Margins.Left = 16.000000000000000000
+                Margins.Right = 10.000000000000000000
+                Position.X = 16.000000000000000000
+                Size.Width = 16.000000000000000000
+                Size.Height = 33.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = claWhite
+                WrapMode = Fit
+              end
+              object Path5: TPath
+                Align = Right
+                Data.Path = {
+                  2A00000000000000000080400000D84002000000651796400000D84002000000
+                  0000A8409BE8E940020000000000A84000000041020000000000A840B30B0B41
+                  0200000065179640000014410200000000008040000014410200000035D15340
+                  000014410200000000003040B30B0B4102000000000030400000004102000000
+                  000030409AE8E9400200000036D153400000D84002000000000080400000D840
+                  03000000000080400000D84000000000000000410000D84002000000B30B0B41
+                  0000D84002000000000014419BE8E94002000000000014410000004102000000
+                  00001441B30B0B4102000000B30B0B4100001441020000000000004100001441
+                  020000009BE8E94000001441020000000000D840B30B0B41020000000000D840
+                  00000041020000000000D8409AE8E940020000009BE8E9400000D84002000000
+                  000000410000D84003000000000000410000D84000000000000040410000D840
+                  02000000B30B4B410000D84002000000000054419BE8E9400200000000005441
+                  000000410200000000005441B30B0B4102000000B30B4B410000144102000000
+                  0000404100001441020000004DF43441000014410200000000002C41B30B0B41
+                  0200000000002C41000000410200000000002C419AE8E940020000004EF43441
+                  0000D84002000000000040410000D84003000000000040410000D840}
+                Fill.Color = xFF8BB0F5
+                HitTest = False
+                Margins.Left = 16.000000000000000000
+                Margins.Right = 10.000000000000000000
+                Position.X = 217.000000000000000000
+                Size.Width = 14.000000000000000000
+                Size.Height = 33.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                WrapMode = Fit
+              end
+            end
+            object Label1: TLabel
+              AutoSize = True
+              StyledSettings = []
+              Position.X = 29.000000000000000000
+              Position.Y = 68.000000000000000000
+              Size.Width = 122.000000000000000000
+              Size.Height = 61.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Family = 'Roboto'
+              TextSettings.Font.Size = 50.000000000000000000
+              TextSettings.Font.StyleExt = {00020000000000000004000000}
+              TextSettings.FontColor = claWhite
+              TextSettings.WordWrap = False
+              Text = '19:14'
+              TabOrder = 1
+            end
+            object ShadowEffect2: TShadowEffect
+              Distance = 0.000099999997473788
+              Direction = 135.000000000000000000
+              Softness = 1.000000000000000000
+              Opacity = 0.200000002980232200
+              ShadowColor = claBlack
+            end
+          end
+          object RectangleTitle: TRectangle
+            Align = Top
+            Corners = [TopLeft, TopRight]
+            Fill.Color = xFF0C0E30
+            HitTest = False
+            Size.Width = 1070.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Kind = None
+            XRadius = 10.000000000000000000
+            YRadius = 10.000000000000000000
+            object LabelTitle: TLabel
+              Align = Left
+              AutoSize = True
+              StyledSettings = [Family, Style]
+              Margins.Left = 10.000000000000000000
+              Position.X = 42.000000000000000000
+              Size.Width = 57.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 10.000000000000000000
+              TextSettings.FontColor = claWhite
+              TextSettings.WordWrap = False
+              Text = 'CONNECTED'
+              TabOrder = 1
+            end
+            object Label4: TLabel
+              Align = Right
+              AutoSize = True
+              StyledSettings = [Family, Style]
+              Margins.Left = 10.000000000000000000
+              Margins.Right = 10.000000000000000000
+              Position.X = 942.000000000000000000
+              Size.Width = 84.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 10.000000000000000000
+              TextSettings.FontColor = claWhite
+              TextSettings.WordWrap = False
+              Text = 'WED, JAN 20, 2025'
+              TabOrder = 0
+            end
+            object Path4: TPath
+              Align = Left
+              Data.Path = {
+                4200000000000000C3F580405839B040020000000E9A8940991F544002000000
+                2D7CC94010C2E03F02000000DBD20741A0A9014002000000CFF7244170051040
+                020000002BEE3B41E0DE6B40020000001F853F415839B040020000005FFD4F41
+                7972B2400200000012F45E418D2DC440020000000AD76741FFFFDF4001000000
+                00000041FFFFDF40020000005CA7DC406400E040020000005200C04015A8FC40
+                02000000B800C0405C00104102000000FA00C040CD6E1B41020000006733CC40
+                ECFE2541020000000000E04045B62B41010000000000E0400000404101000000
+                00008840000040410200000001201D40A80F4041020000006C357F3F60D42841
+                02000000F43A7E3F601C0C4102000000A84B7D3F8658E1400200000076671440
+                64D2B34002000000C3F580405839B04000000000000000410000004102000000
+                AF53EE4000000041020000000000E040D7290741020000000000E04000001041
+                020000000000E04028D6184102000000AF53EE40000020410200000000000041
+                000020410100000000007041000020410200000029D678410000204102000000
+                0000804129D618410200000000008041000010410200000000008041D8290741
+                0200000029D67841000000410200000000007041000000410300000000000041
+                0000004100000000000070410000304101000000000000410000304101000000
+                0000004100006041020000000000004151AC714102000000AF530E4100008041
+                0200000000002041000080410100000000005041000080410200000051AC6141
+                00008041020000000000704151AC714102000000000070410000604103000000
+                00007041000030410000000000002041000048410200000000002041EC944341
+                02000000EC942341000040410200000000002841000040410100000000004841
+                0000404102000000146B4C41000040410200000000005041EC94434102000000
+                00005041000048410200000000005041146B4C4102000000146B4C4100005041
+                02000000000048410000504101000000000028410000504102000000EC942341
+                000050410200000000002041146B4C41020000000000204100004841}
+              Fill.Color = claWhite
+              HitTest = False
+              Margins.Left = 16.000000000000000000
+              Position.X = 16.000000000000000000
+              Size.Width = 16.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              WrapMode = Fit
+            end
+            object Layout26: TLayout
+              Align = Right
+              Cursor = crHandPoint
+              HitTest = True
+              Margins.Right = 10.000000000000000000
+              Position.X = 1036.000000000000000000
+              Size.Width = 24.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 3
+              OnClick = Layout26Click
+              object Path21: TPath
+                Align = Center
+                Data.Path = {
+                  2A0000000000000073681940BC742340010000007B141E407A141E4002000000
+                  59E02E409E470D4002000000766F4940144B0B4002000000458B5C4072681940
+                  0100000087EB61407A141E4001000000000000414A0CDE40010000001E854741
+                  1A041E400200000057204C41D6F40A400200000025B9534134710A4002000000
+                  F67C584118DE1C4002000000C6405D41FB4A2F4002000000AF615D4133AE4D40
+                  0200000076C6584176BD604002000000B5AD5841E52361400200000082945841
+                  9788614002000000E07A584184EB614001000000DBF910410000004101000000
+                  FA7E58411E85474102000000EBB05C4124B94B41020000004E2E5D41D85C5241
+                  02000000E3A55941D022574101000000E17A5841E07A584102000000E9475441
+                  17AE5C410200000022A44D413A2D5D41020000002FDD4841E2A5594101000000
+                  1F854741E07A58410100000000000041DBF910410100000086EB6140FA7E5841
+                  02000000E0D74E4010195D4102000000C974304059F65C41020000006F0C1E40
+                  70315841020000007A170C406C8A5341020000000A1B0C400C2B4C4102000000
+                  7E141E401E854741010000004A0CDE4000000041010000001A041E4086EB6140
+                  02000000563C0D40701B514002000000C8460B409D8C36400200000074681940
+                  BE742340010000007C141E407C141E400300000073681940BC742340}
+                Fill.Color = claWhite
+                HitTest = False
+                Size.Width = 14.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                WrapMode = Fit
+              end
+            end
+          end
+          object RectangleFooter: TRectangle
+            Align = Bottom
+            Corners = [BottomLeft, BottomRight]
+            Fill.Color = xFF0C0E30
+            HitTest = False
+            Position.Y = 590.000000000000000000
+            Size.Width = 1070.000000000000000000
+            Size.Height = 60.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Kind = None
+            XRadius = 10.000000000000000000
+            YRadius = 10.000000000000000000
+            object Rectangle11: TRectangle
+              Fill.Color = xFF0A0B2B
+              Position.X = 24.000000000000000000
+              Position.Y = 14.000000000000000000
+              Size.Width = 135.000000000000000000
+              Size.Height = 28.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Color = x32FFFFFF
+              XRadius = 6.000000000000000000
+              YRadius = 6.000000000000000000
+              OnClick = Rectangle11Click
+              object Label66: TLabel
+                Align = Client
+                StyledSettings = [Family, Size, Style]
+                Size.Width = 95.000000000000000000
+                Size.Height = 28.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.FontColor = claWhite
+                Text = 'Back to Home'
+                TabOrder = 0
+              end
+              object Path20: TPath
+                Align = Left
+                Data.Path = {
+                  2500000000000000000060410000004102000000000060419EA0064102000000
+                  9EA05A4100000C41020000000000544100000C4101000000E5D08E4000000C41
+                  010000000000F840560E3B41020000001EF7004112723F4102000000996E0141
+                  7B07474102000000BB15FA4099FE4B4102000000444EF140B7F5504102000000
+                  7223E240316D5141020000003635D84076094D41020000006223D84095014D41
+                  02000000A711D840A7F94C41020000000300D840ABF14C410100000000000040
+                  AAF10841020000009472D83FCF87044102000000BE01D53FB0E3F94002000000
+                  9950F83F5500F04002000000B6BAFA3F3A53EF4002000000954BFD3F03AFEE40
+                  02000000000000407B14EE40010000000000D840F6284C4002000000F4D3E140
+                  425F3A40020000004901F140EBE23B400200000023E6F940D28A4F4002000000
+                  7F650141B93263400200000094040141B2C68040020000003635F8408CAB8940
+                  020000009223F84083BB894002000000D611F8405FCB8940020000000300F840
+                  21DB894001000000E5D08E400000E84001000000000054410000E84002000000
+                  9EA05A410000E8400200000000006041C3BEF240020000000000604100000041}
+                Fill.Color = claWhite
+                HitTest = False
+                Margins.Left = 16.000000000000000000
+                Margins.Right = 10.000000000000000000
+                Position.X = 16.000000000000000000
+                Size.Width = 14.000000000000000000
+                Size.Height = 28.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = claWhite
+                WrapMode = Fit
+              end
+            end
+            object Label67: TLabel
+              Align = Right
+              StyledSettings = [Family, Size, Style]
+              Margins.Right = 40.000000000000000000
+              Position.X = 800.000000000000000000
+              Size.Width = 230.000000000000000000
+              Size.Height = 60.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.FontColor = xBEFFFFFF
+              TextSettings.HorzAlign = Trailing
+              Text = 'ambient weather by HemulGM'
+              TabOrder = 0
+            end
+          end
+          object Rectangle4: TRectangle
+            Fill.Kind = Gradient
+            Fill.Gradient.Points = <
+              item
+                Color = xFF04132A
+                Offset = 0.003105590119957924
+              end
+              item
+                Color = xFF052742
+                Offset = 1.000000000000000000
+              end>
+            Fill.Gradient.StopPosition.X = 1.000000000000000000
+            HitTest = False
+            Position.X = 24.000000000000000000
+            Position.Y = 237.000000000000000000
+            Size.Width = 241.000000000000000000
+            Size.Height = 332.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = x1EFFFFFF
+            XRadius = 15.000000000000000000
+            YRadius = 15.000000000000000000
+            object Line2: TLine
+              Align = Top
+              HitTest = False
+              LineType = Bottom
+              Size.Width = 241.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Color = x1EFFFFFF
+              object Label3: TLabel
+                Align = Client
+                AutoSize = True
+                StyledSettings = []
+                Size.Width = 159.000000000000000000
+                Size.Height = 33.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Family = 'Roboto'
+                TextSettings.Font.Size = 11.000000000000000000
+                TextSettings.Font.StyleExt = {00020000000000000004000000}
+                TextSettings.FontColor = claWhite
+                TextSettings.WordWrap = False
+                Text = 'FORECAST'
+                TabOrder = 1
+              end
+              object Path2: TPath
+                Align = Left
+                Data.Path = {
+                  2E0000000000000000008041000008410200000000008041EC94034102000000
+                  146B7C410000004102000000000078410000004102000000EC94734100000041
+                  0200000000007041EC9403410200000000007041000008410100000000007041
+                  0000844102000000000070418A35864102000000EC9473410000884102000000
+                  0000784100008841010000000000A44100008841020000008A35A64100008841
+                  020000000000A8418A358641020000000000A84100008441020000000000A841
+                  76CA8141020000008A35A64100008041020000000000A4410000804101000000
+                  0000804100008041030000000000804100000841000000000000F04100008041
+                  020000000000F04123DBBD410200000023DBBD410000F0410200000000008041
+                  0000F04102000000BA4904410000F041020000000000004023DBBD4102000000
+                  00000040000080410200000000000040BA49044102000000BA49044100000040
+                  0200000000008041000000400200000023DBBD4100000040020000000000F041
+                  BA490441020000000000F04100008041000000000000E8410000804102000000
+                  0000E841B81E0D4102000000A470B94100004040020000000000804100004040
+                  02000000B81E0D41000040400200000000004040B81E0D410200000000004040
+                  000080410200000000004040A470B94102000000B81E0D410000E84102000000
+                  000080410000E84102000000A470B9410000E841020000000000E841A470B941
+                  020000000000E84100008041}
+                Fill.Color = claWhite
+                HitTest = False
+                Margins.Left = 16.000000000000000000
+                Margins.Right = 10.000000000000000000
+                Position.X = 16.000000000000000000
+                Size.Width = 16.000000000000000000
+                Size.Height = 33.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = claWhite
+                WrapMode = Fit
+              end
+              object Path6: TPath
+                Align = Right
+                Data.Path = {
+                  2A00000000000000000080400000D84002000000651796400000D84002000000
+                  0000A8409BE8E940020000000000A84000000041020000000000A840B30B0B41
+                  0200000065179640000014410200000000008040000014410200000035D15340
+                  000014410200000000003040B30B0B4102000000000030400000004102000000
+                  000030409AE8E9400200000036D153400000D84002000000000080400000D840
+                  03000000000080400000D84000000000000000410000D84002000000B30B0B41
+                  0000D84002000000000014419BE8E94002000000000014410000004102000000
+                  00001441B30B0B4102000000B30B0B4100001441020000000000004100001441
+                  020000009BE8E94000001441020000000000D840B30B0B41020000000000D840
+                  00000041020000000000D8409AE8E940020000009BE8E9400000D84002000000
+                  000000410000D84003000000000000410000D84000000000000040410000D840
+                  02000000B30B4B410000D84002000000000054419BE8E9400200000000005441
+                  000000410200000000005441B30B0B4102000000B30B4B410000144102000000
+                  0000404100001441020000004DF43441000014410200000000002C41B30B0B41
+                  0200000000002C41000000410200000000002C419AE8E940020000004EF43441
+                  0000D84002000000000040410000D84003000000000040410000D840}
+                Fill.Color = xFF8BB0F5
+                HitTest = False
+                Margins.Left = 16.000000000000000000
+                Margins.Right = 10.000000000000000000
+                Position.X = 217.000000000000000000
+                Size.Width = 14.000000000000000000
+                Size.Height = 33.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                WrapMode = Fit
+              end
+            end
+            object ShadowEffect1: TShadowEffect
+              Distance = 0.000099999997473788
+              Direction = 135.000000000000000000
+              Softness = 1.000000000000000000
+              Opacity = 0.200000002980232200
+              ShadowColor = claBlack
+            end
+            object GridPanelLayout2: TGridPanelLayout
+              Align = Bottom
+              HitTest = False
+              Margins.Left = 10.000000000000000000
+              Margins.Right = 10.000000000000000000
+              Margins.Bottom = 20.000000000000000000
+              Position.X = 10.000000000000000000
+              Position.Y = 212.000000000000000000
+              Size.Width = 221.000000000000000000
+              Size.Height = 100.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 2
+              ColumnCollection = <
+                item
+                  Value = 20.000000000000000000
+                end
+                item
+                  Value = 20.000000000000000000
+                end
+                item
+                  Value = 20.000000000000000000
+                end
+                item
+                  Value = 20.000000000000000000
+                end
+                item
+                  Value = 20.000000000000000000
+                end>
+              ControlCollection = <
+                item
+                  Column = 0
+                  Control = Layout4
+                  Row = 0
+                end
+                item
+                  Column = 1
+                  Control = Layout5
+                  Row = 0
+                end
+                item
+                  Column = 2
+                  Control = Layout6
+                  Row = 0
+                end
+                item
+                  Column = 3
+                  Control = Layout7
+                  Row = 0
+                end
+                item
+                  Column = 4
+                  Control = Layout8
+                  Row = 0
+                end>
+              RowCollection = <
+                item
+                  Value = 100.000000000000000000
+                end>
+              object Layout4: TLayout
+                Align = Client
+                Margins.Top = 10.000000000000000000
+                Margins.Bottom = 10.000000000000000000
+                Size.Width = 44.200000762939450000
+                Size.Height = 80.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                object Label13: TLabel
+                  Align = Top
+                  StyledSettings = [Family, Style]
+                  Size.Width = 44.200000762939450000
+                  Size.Height = 17.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 10.000000000000000000
+                  TextSettings.FontColor = xFF7FCEDE
+                  TextSettings.HorzAlign = Center
+                  Text = '5pm'
+                  TabOrder = 1
+                end
+                object Label14: TLabel
+                  Align = Bottom
+                  AutoSize = True
+                  StyledSettings = [Family, Style]
+                  Position.Y = 62.000000000000000000
+                  Size.Width = 44.200000762939450000
+                  Size.Height = 18.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 13.000000000000000000
+                  TextSettings.FontColor = claWhite
+                  TextSettings.HorzAlign = Center
+                  TextSettings.WordWrap = False
+                  Text = '18'#8451
+                  TabOrder = 0
+                end
+                object SkSvg1: TSkSvg
+                  Align = Client
+                  Margins.Top = 10.000000000000000000
+                  Margins.Bottom = 10.000000000000000000
+                  Size.Width = 44.200000762939450000
+                  Size.Height = 25.000000000000000000
+                  Size.PlatformDefault = False
+                  Svg.Source = 
+                    '<?xml version="1.0" ?><svg viewBox="0 0 64 64" xmlns="http://www' +
+                    '.w3.org/2000/svg"><title/><g id="Sun"><circle cx="32" cy="32" r=' +
+                    '"15" style="fill:#ffd36b"/><path d="M32,13a1,1,0,0,1-1-1V3a1,1,0' +
+                    ',0,1,2,0v9A1,1,0,0,1,32,13Z" style="fill:#ffe78f"/><path d="M17.' +
+                    '8574,18.8579a.9964.9964,0,0,1-.707-.293l-4.2422-4.2426a1,1,0,1,1' +
+                    ',1.4141-1.4141l4.2422,4.2427a1,1,0,0,1-.7071,1.707Z" style="fill' +
+                    ':#ffe78f"/><path d="M12,33H3a1,1,0,0,1,0-2h9a1,1,0,0,1,0,2Z" sty' +
+                    'le="fill:#ffe78f"/><path d="M13.6152,51.3848a1,1,0,0,1-.707-1.70' +
+                    '71L17.15,45.4351a1,1,0,1,1,1.4141,1.414l-4.2422,4.2427A.9969.996' +
+                    '9,0,0,1,13.6152,51.3848Z" style="fill:#ffe78f"/><path d="M32,62a' +
+                    '1,1,0,0,1-1-1V52a1,1,0,0,1,2,0v9A1,1,0,0,1,32,62Z" style="fill:#' +
+                    'ffe78f"/><path d="M50.3848,51.3848a.9969.9969,0,0,1-.7071-.293l-' +
+                    '4.2422-4.2427a1,1,0,1,1,1.4141-1.414l4.2422,4.2426a1,1,0,0,1-.70' +
+                    '7,1.7071Z" style="fill:#ffe78f"/><path d="M61,33H52a1,1,0,0,1,0-' +
+                    '2h9a1,1,0,0,1,0,2Z" style="fill:#ffe78f"/><path d="M46.1426,18.8' +
+                    '579a1,1,0,0,1-.7071-1.707l4.2422-4.2427a1,1,0,0,1,1.4141,1.4141L' +
+                    '46.85,18.5649A.9964.9964,0,0,1,46.1426,18.8579Z" style="fill:#ff' +
+                    'e78f"/></g></svg>'
+                end
+              end
+              object Layout5: TLayout
+                Align = Client
+                Margins.Top = 10.000000000000000000
+                Margins.Bottom = 10.000000000000000000
+                Size.Width = 44.200000762939450000
+                Size.Height = 80.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 5
+                object Label15: TLabel
+                  Align = Top
+                  StyledSettings = [Family, Style]
+                  Size.Width = 44.200000762939450000
+                  Size.Height = 17.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 10.000000000000000000
+                  TextSettings.FontColor = xFF7FCEDE
+                  TextSettings.HorzAlign = Center
+                  Text = '6pm'
+                  TabOrder = 1
+                end
+                object Label16: TLabel
+                  Align = Bottom
+                  AutoSize = True
+                  StyledSettings = [Family, Style]
+                  Position.Y = 62.000000000000000000
+                  Size.Width = 44.200000762939450000
+                  Size.Height = 18.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 13.000000000000000000
+                  TextSettings.FontColor = claWhite
+                  TextSettings.HorzAlign = Center
+                  TextSettings.WordWrap = False
+                  Text = '19'#8451
+                  TabOrder = 0
+                end
+                object SkSvg2: TSkSvg
+                  Align = Client
+                  Margins.Top = 10.000000000000000000
+                  Margins.Bottom = 10.000000000000000000
+                  Size.Width = 44.200000762939450000
+                  Size.Height = 25.000000000000000000
+                  Size.PlatformDefault = False
+                  Svg.Source = 
+                    '<?xml version="1.0" ?><svg viewBox="0 0 64 64" xmlns="http://www' +
+                    '.w3.org/2000/svg"><title/><g id="Sunny"><path d="M38.7744,19.551' +
+                    '8a12.1579,12.1579,0,0,0-11.3413,7.6733,1,1,0,0,0,.7715,1.3594,12' +
+                    '.0286,12.0286,0,0,1,9.0879,6.9443,1,1,0,0,0,1.1069.5679,9.3251,9' +
+                    '.3251,0,0,1,8.7793,2.8462,1.0007,1.0007,0,0,0,.7407.3281c.02,0,.' +
+                    '0406-.0005.0611-.002a1.0007,1.0007,0,0,0,.7563-.4218,12.2235,12.' +
+                    '2235,0,0,0-9.9624-19.2954Z" style="fill:#ffd36b"/><path d="M38.7' +
+                    '744,16.75a1,1,0,0,1-1-1V8.542a1,1,0,0,1,2,0V15.75A1,1,0,0,1,38.7' +
+                    '744,16.75Z" style="fill:#ffe78f"/><path d="M27.4478,21.4414a.996' +
+                    '5.9965,0,0,1-.7071-.293l-3.3979-3.3979a1,1,0,1,1,1.414-1.4141l3.' +
+                    '398,3.398a1,1,0,0,1-.707,1.707Z" style="fill:#ffe78f"/><path d="' +
+                    'M62,32.7676H54.792a1,1,0,0,1,0-2H62a1,1,0,0,1,0,2Z" style="fill:' +
+                    '#ffe78f"/><path d="M50.1006,21.4414a1,1,0,0,1-.707-1.707l3.3979-' +
+                    '3.398a1,1,0,0,1,1.4141,1.4141l-3.398,3.3979A.9964.9964,0,0,1,50.' +
+                    '1006,21.4414Z" style="fill:#ffe78f"/><path d="M51.5659,44.4351A1' +
+                    '1.2818,11.2818,0,0,0,38.7754,34.0073a14.071,14.071,0,0,0-25.7339' +
+                    ',1.7656A7.5344,7.5344,0,0,0,5.72,44.1313,8.5348,8.5348,0,0,0,1,5' +
+                    '1.7227a8.4075,8.4075,0,0,0,1.1431,4.24.9991.9991,0,0,0,.8632.495' +
+                    '6H55.0127a1.0008,1.0008,0,0,0,.8169-.4228,7.4345,7.4345,0,0,0,1.' +
+                    '3638-4.3125A7.5632,7.5632,0,0,0,51.5659,44.4351Z" style="fill:#9' +
+                    'cd5f2"/></g></svg>'
+                end
+              end
+              object Layout6: TLayout
+                Align = Client
+                Padding.Top = 10.000000000000000000
+                Padding.Bottom = 10.000000000000000000
+                Size.Width = 44.200004577636720000
+                Size.Height = 100.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 4
+                object Rectangle6: TRectangle
+                  Align = Contents
+                  Fill.Color = x32000000
+                  Size.Width = 44.200004577636720000
+                  Size.Height = 100.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                  XRadius = 6.000000000000000000
+                  YRadius = 6.000000000000000000
+                end
+                object Label17: TLabel
+                  Align = Top
+                  StyledSettings = [Family, Style]
+                  Position.Y = 10.000000000000000000
+                  Size.Width = 44.200004577636720000
+                  Size.Height = 17.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 9.000000000000000000
+                  TextSettings.FontColor = xFF7FCEDE
+                  TextSettings.HorzAlign = Center
+                  Text = '7pm'
+                  TabOrder = 1
+                end
+                object Label18: TLabel
+                  Align = Bottom
+                  AutoSize = True
+                  StyledSettings = [Family, Style]
+                  Position.Y = 72.000000000000000000
+                  Size.Width = 44.200004577636720000
+                  Size.Height = 18.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 13.000000000000000000
+                  TextSettings.FontColor = claWhite
+                  TextSettings.HorzAlign = Center
+                  TextSettings.WordWrap = False
+                  Text = '24'#8451
+                  TabOrder = 0
+                end
+                object SkSvg3: TSkSvg
+                  Align = Client
+                  Margins.Top = 10.000000000000000000
+                  Margins.Bottom = 10.000000000000000000
+                  Size.Width = 44.200004577636720000
+                  Size.Height = 25.000000000000000000
+                  Size.PlatformDefault = False
+                  Svg.Source = 
+                    '<?xml version="1.0" ?><svg viewBox="0 0 64 64" xmlns="http://www' +
+                    '.w3.org/2000/svg"><title/><g id="Cloud"><path d="M55.9771,35.254' +
+                    '9A12.015,12.015,0,0,0,44,24a12.1858,12.1858,0,0,0-1.6792.1162A14' +
+                    '.9915,14.9915,0,0,0,14.8623,26.001,8.01,8.01,0,0,0,7,34a7.91,7.9' +
+                    '1,0,0,0,.0537.916A9.0644,9.0644,0,0,0,2,43a8.8727,8.8727,0,0,0,1' +
+                    '.2188,4.5078A.9991.9991,0,0,0,4.08,48H59.74a.9991.9991,0,0,0,.81' +
+                    '94-.4268A7.942,7.942,0,0,0,62,43,8.0294,8.0294,0,0,0,55.9771,35.' +
+                    '2549Z" style="fill:#9cd5f2"/></g></svg>'
+                end
+              end
+              object Layout7: TLayout
+                Align = Client
+                Margins.Top = 10.000000000000000000
+                Margins.Bottom = 10.000000000000000000
+                Size.Width = 44.199996948242190000
+                Size.Height = 80.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 3
+                object Label19: TLabel
+                  Align = Top
+                  StyledSettings = [Family, Style]
+                  Size.Width = 44.199996948242190000
+                  Size.Height = 17.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 10.000000000000000000
+                  TextSettings.FontColor = xFF7FCEDE
+                  TextSettings.HorzAlign = Center
+                  Text = '8pm'
+                  TabOrder = 1
+                end
+                object Label20: TLabel
+                  Align = Bottom
+                  AutoSize = True
+                  StyledSettings = [Family, Style]
+                  Position.Y = 62.000000000000000000
+                  Size.Width = 44.199996948242190000
+                  Size.Height = 18.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 13.000000000000000000
+                  TextSettings.FontColor = claWhite
+                  TextSettings.HorzAlign = Center
+                  TextSettings.WordWrap = False
+                  Text = '25'#8451
+                  TabOrder = 0
+                end
+                object SkSvg4: TSkSvg
+                  Align = Client
+                  Margins.Top = 10.000000000000000000
+                  Margins.Bottom = 10.000000000000000000
+                  Size.Width = 44.199996948242190000
+                  Size.Height = 25.000000000000000000
+                  Size.PlatformDefault = False
+                  Svg.Source = 
+                    '<?xml version="1.0" ?><svg viewBox="0 0 64 64" xmlns="http://www' +
+                    '.w3.org/2000/svg"><title/><g id="Windy"><path d="M55.9775,24.254' +
+                    '9A12.0171,12.0171,0,0,0,44,13a12.1822,12.1822,0,0,0-1.68.1162,14' +
+                    '.9911,14.9911,0,0,0-27.458,1.8848A8.0093,8.0093,0,0,0,7,23a7.781' +
+                    '6,7.7816,0,0,0,.0537.916A9.0645,9.0645,0,0,0,2,32a8.8714,8.8714,' +
+                    '0,0,0,1.2188,4.5078A.9986.9986,0,0,0,4.08,37H59.74a.9993.9993,0,' +
+                    '0,0,.8194-.4268A7.9408,7.9408,0,0,0,62,32,8.0292,8.0292,0,0,0,55' +
+                    '.9775,24.2549Z" style="fill:#9cd5f2"/><path d="M12.999,49.999a5.' +
+                    '2691,5.2691,0,0,1-1.1845-.1357A4.9532,4.9532,0,0,1,8.1338,46.17,' +
+                    '5.0068,5.0068,0,0,1,13,40H37a1,1,0,0,1,0,2H13a3.0027,3.0027,0,0,' +
+                    '0-.7334,5.915,3.0783,3.0783,0,0,0,1.7832-.1035.9039.9039,0,0,0,.' +
+                    '5332-1.23.9407.9407,0,0,0-1.1953-.6563,1.0406,1.0406,0,0,1-1.295' +
+                    '9-.6367.9608.9608,0,0,1,.6016-1.24L13,45l-.2275-.9775a3.002,3.00' +
+                    '2,0,0,1,1.9785,5.6621A4.987,4.987,0,0,1,12.999,49.999Z" style="f' +
+                    'ill:#b2ebf2"/><path d="M26.0352,59a4.1685,4.1685,0,0,1-.9463-.11' +
+                    ',3.9593,3.9593,0,0,1-2.9463-2.956A4.0047,4.0047,0,0,1,26.0361,51' +
+                    'h9.9278a1,1,0,0,1,0,2H26.0361a2.0019,2.0019,0,0,0-.4941,3.9424,2' +
+                    '.0692,2.0692,0,0,0,1.1934-.0684.4271.4271,0,0,0,.2509-.6074.4437' +
+                    '.4437,0,0,0-.5849-.334,1.0269,1.0269,0,0,1-1.2813-.63.97.97,0,0,' +
+                    '1,.5879-1.247c.0117-.0049.0908-.03.1035-.0342a2.5013,2.5013,0,0,' +
+                    '1,1.624,4.7256A3.98,3.98,0,0,1,26.0352,59Z" style="fill:#b2ebf2"' +
+                    '/><path d="M51.001,54.999a4.9992,4.9992,0,0,1-1.752-.3144,3.0024' +
+                    ',3.0024,0,0,1,1.961-5.668l.0966.0313a1,1,0,0,1-.6132,1.9042l-.09' +
+                    '87-.0332a.9272.9272,0,0,0-1.1777.6622.9039.9039,0,0,0,.5332,1.23' +
+                    ',3.09,3.09,0,0,0,1.7842.1026A3.0028,3.0028,0,0,0,51,47H25a1,1,0,' +
+                    '0,1,0-2H51a5.0023,5.0023,0,0,1,1.1865,9.8623A5.2222,5.2222,0,0,1' +
+                    ',51.001,54.999Z" style="fill:#b2ebf2"/></g></svg>'
+                end
+              end
+              object Layout8: TLayout
+                Align = Client
+                Margins.Top = 10.000000000000000000
+                Margins.Bottom = 10.000000000000000000
+                Size.Width = 44.199996948242190000
+                Size.Height = 80.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 2
+                object Label21: TLabel
+                  Align = Top
+                  StyledSettings = [Family, Style]
+                  Size.Width = 44.199996948242190000
+                  Size.Height = 17.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 10.000000000000000000
+                  TextSettings.FontColor = xFF7FCEDE
+                  TextSettings.HorzAlign = Center
+                  Text = '9pm'
+                  TabOrder = 1
+                end
+                object Label22: TLabel
+                  Align = Bottom
+                  AutoSize = True
+                  StyledSettings = [Family, Style]
+                  Position.Y = 62.000000000000000000
+                  Size.Width = 44.199996948242190000
+                  Size.Height = 18.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 13.000000000000000000
+                  TextSettings.FontColor = claWhite
+                  TextSettings.HorzAlign = Center
+                  TextSettings.WordWrap = False
+                  Text = '26'#8451
+                  TabOrder = 0
+                end
+                object SkSvg5: TSkSvg
+                  Align = Client
+                  Margins.Top = 10.000000000000000000
+                  Margins.Bottom = 10.000000000000000000
+                  Size.Width = 44.199996948242190000
+                  Size.Height = 25.000000000000000000
+                  Size.PlatformDefault = False
+                  Svg.Source = 
+                    '<?xml version="1.0" ?><svg viewBox="0 0 64 64" xmlns="http://www' +
+                    '.w3.org/2000/svg"><title/><g id="Storm"><path d="M55.9771,25.254' +
+                    '9A12.015,12.015,0,0,0,44,14a12.1858,12.1858,0,0,0-1.6792.1162A14' +
+                    '.9915,14.9915,0,0,0,14.8623,16.001,8.01,8.01,0,0,0,7,24a7.91,7.9' +
+                    '1,0,0,0,.0537.916A9.0644,9.0644,0,0,0,2,33a8.8727,8.8727,0,0,0,1' +
+                    '.2188,4.5078A.9991.9991,0,0,0,4.08,38H59.74a.9991.9991,0,0,0,.81' +
+                    '94-.4268A7.942,7.942,0,0,0,62,33,8.0294,8.0294,0,0,0,55.9771,25.' +
+                    '2549Z" style="fill:#c3aed6"/><path d="M17,45H13.2808l.6894-2.757' +
+                    '3A1,1,0,0,0,13,41H8a1,1,0,0,0-.9614.7251l-2,7A1,1,0,0,0,6,50H7.7' +
+                    '192L6.03,56.7573a1,1,0,0,0,1.71.9156l10-11A1,1,0,0,0,17,45Z" sty' +
+                    'le="fill:#ff9a76"/><path d="M38,45H34.2808l.6894-2.7573A1,1,0,0,' +
+                    '0,34,41H29a1,1,0,0,0-.9614.7251l-2,7A1,1,0,0,0,27,50h1.7192L27.0' +
+                    '3,56.7573a1,1,0,0,0,1.71.9156l10-11A1,1,0,0,0,38,45Z" style="fil' +
+                    'l:#ff9a76"/><path d="M58.9146,45.5952A1,1,0,0,0,58,45H54.2808l.6' +
+                    '894-2.7573A1,1,0,0,0,54,41H49a1,1,0,0,0-.9614.7251l-2,7A1,1,0,0,' +
+                    '0,47,50h1.7192L47.03,56.7573a1,1,0,0,0,1.71.9156l10-11A1,1,0,0,0' +
+                    ',58.9146,45.5952Z" style="fill:#ff9a76"/></g></svg>'
+                end
+              end
+            end
+          end
+          object Rectangle7: TRectangle
+            Fill.Kind = Gradient
+            Fill.Gradient.Points = <
+              item
+                Color = xFF04132A
+                Offset = 0.003105590119957924
+              end
+              item
+                Color = xFF052742
+                Offset = 1.000000000000000000
+              end>
+            Fill.Gradient.StopPosition.X = 1.000000000000000000
+            HitTest = False
+            Position.X = 283.000000000000000000
+            Position.Y = 59.000000000000000000
+            Size.Width = 241.000000000000000000
+            Size.Height = 267.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = x1EFFFFFF
+            XRadius = 15.000000000000000000
+            YRadius = 15.000000000000000000
+            object Line4: TLine
+              Align = Top
+              HitTest = False
+              LineType = Bottom
+              Size.Width = 241.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Color = x1EFFFFFF
+              object Label23: TLabel
+                Align = Client
+                StyledSettings = []
+                Size.Width = 159.000000000000000000
+                Size.Height = 33.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Family = 'Roboto'
+                TextSettings.Font.Size = 11.000000000000000000
+                TextSettings.Font.StyleExt = {00020000000000000004000000}
+                TextSettings.FontColor = claWhite
+                TextSettings.WordWrap = False
+                Text = 'WIND'
+                TabOrder = 1
+              end
+              object Path8: TPath
+                Align = Left
+                Data.Path = {
+                  4200000000000000000000410000B04002000000BDA1DC4063F2AF4002000000
+                  64F2BF40BBA1CC40020000000000C040FFFFEF40020000000000C04051AC0941
+                  020000005FA7DC4000001841020000000100004100001841010000003E0A4741
+                  00001841010000001F854341E17A1441020000007B003F41A0A10F4102000000
+                  14453F41C109084102000000551E44411E850341020000001CBA48418973FE40
+                  020000001BDF4F418973FE4002000000E27A54411F85034101000000E27A6C41
+                  1F851B4102000000C62871418034204102000000C628714180CB274102000000
+                  E27A6C41E27A2C4101000000E27A5441E27A44410200000048F64F412A544941
+                  02000000695E4841CF98494102000000208543413414454102000000D8AB3E41
+                  998F40410200000033673E41BAF7384102000000CEEB4241721E344102000000
+                  171D43418DE93341020000003C50434168B6334102000000218543411F853341
+                  01000000400A47410000304101000000000000410000304102000000E224C240
+                  6301304102000000BEFD8F4011F0164102000000F8FA8F400605F04002000000
+                  1AFA8F4050AADC400200000035FD9440F0A3C940020000002C879E40CBCCB840
+                  02000000B6FEBC40BAF7824002000000A0AA00417C0D60400200000029951B41
+                  487E8E400200000039262D419A60A240020000009A01384151A1C74002000000
+                  000038410000F0400100000000003841CDCCF0400200000014AE3341CBA1F940
+                  02000000A01A3141EC51024102000000BA493041000008410100000046B61B41
+                  00000841020000006E8C2441A763F14002000000F74D1F415B3FCA4002000000
+                  CBFF0F410A93B8400200000083220B411DF5B24002000000ED9D05411300B040
+                  02000000000000410000B04000000000000030400000184101000000B6F37D40
+                  000018410200000089418840F853214102000000A47095400681294102000000
+                  D578A5400000304101000000000030400000304102000000867D154000003041
+                  02000000000000409EA02A410200000000000040000024410200000000000040
+                  615F1D4102000000877D154000001841020000000100304000001841}
+                Fill.Color = claWhite
+                HitTest = False
+                Margins.Left = 16.000000000000000000
+                Margins.Right = 10.000000000000000000
+                Position.X = 16.000000000000000000
+                Size.Width = 16.000000000000000000
+                Size.Height = 33.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                WrapMode = Fit
+              end
+              object Path9: TPath
+                Align = Right
+                Data.Path = {
+                  2A00000000000000000080400000D84002000000651796400000D84002000000
+                  0000A8409BE8E940020000000000A84000000041020000000000A840B30B0B41
+                  0200000065179640000014410200000000008040000014410200000035D15340
+                  000014410200000000003040B30B0B4102000000000030400000004102000000
+                  000030409AE8E9400200000036D153400000D84002000000000080400000D840
+                  03000000000080400000D84000000000000000410000D84002000000B30B0B41
+                  0000D84002000000000014419BE8E94002000000000014410000004102000000
+                  00001441B30B0B4102000000B30B0B4100001441020000000000004100001441
+                  020000009BE8E94000001441020000000000D840B30B0B41020000000000D840
+                  00000041020000000000D8409AE8E940020000009BE8E9400000D84002000000
+                  000000410000D84003000000000000410000D84000000000000040410000D840
+                  02000000B30B4B410000D84002000000000054419BE8E9400200000000005441
+                  000000410200000000005441B30B0B4102000000B30B4B410000144102000000
+                  0000404100001441020000004DF43441000014410200000000002C41B30B0B41
+                  0200000000002C41000000410200000000002C419AE8E940020000004EF43441
+                  0000D84002000000000040410000D84003000000000040410000D840}
+                Fill.Color = xFF8BB0F5
+                HitTest = False
+                Margins.Left = 16.000000000000000000
+                Margins.Right = 10.000000000000000000
+                Position.X = 217.000000000000000000
+                Size.Width = 14.000000000000000000
+                Size.Height = 33.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                WrapMode = Fit
+              end
+            end
+            object ShadowEffect4: TShadowEffect
+              Distance = 0.000099999997473788
+              Direction = 135.000000000000000000
+              Softness = 1.000000000000000000
+              Opacity = 0.200000002980232200
+              ShadowColor = claBlack
+            end
+            object Circle1: TCircle
+              Align = Client
+              Fill.Kind = None
+              HitTest = False
+              Margins.Left = 32.000000000000000000
+              Margins.Top = 32.000000000000000000
+              Margins.Right = 32.000000000000000000
+              Margins.Bottom = 32.000000000000000000
+              Size.Width = 177.000000000000000000
+              Size.Height = 139.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Color = xFF5376C3
+              Stroke.Thickness = 4.000000000000000000
+              Stroke.Cap = Round
+              Stroke.Dash = Dot
+              object Circle2: TCircle
+                Align = Client
+                Fill.Kind = None
+                HitTest = False
+                Margins.Left = 16.000000000000000000
+                Margins.Top = 16.000000000000000000
+                Margins.Right = 16.000000000000000000
+                Margins.Bottom = 16.000000000000000000
+                Size.Width = 145.000000000000000000
+                Size.Height = 107.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = xFF81B1D3
+                Stroke.Thickness = 4.000000000000000000
+                Stroke.Cap = Round
+                object Label24: TLabel
+                  Align = Center
+                  AutoSize = True
+                  StyledSettings = []
+                  Size.Width = 60.000000000000000000
+                  Size.Height = 51.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Family = 'Roboto'
+                  TextSettings.Font.Size = 42.000000000000000000
+                  TextSettings.Font.StyleExt = {00050000000000000004000000}
+                  TextSettings.FontColor = claWhite
+                  TextSettings.WordWrap = False
+                  Text = '1.2'
+                  TabOrder = 1
+                  object Label25: TLabel
+                    Align = Bottom
+                    AutoSize = True
+                    StyledSettings = []
+                    Opacity = 0.500000000000000000
+                    Margins.Bottom = -14.000000000000000000
+                    Position.Y = 48.000000000000000000
+                    Size.Width = 60.000000000000000000
+                    Size.Height = 17.000000000000000000
+                    Size.PlatformDefault = False
+                    TextSettings.Font.Family = 'Roboto'
+                    TextSettings.Font.Size = 14.000000000000000000
+                    TextSettings.FontColor = xFF98C7F4
+                    TextSettings.HorzAlign = Center
+                    TextSettings.WordWrap = False
+                    Text = 'MPH'
+                    TabOrder = 1
+                  end
+                end
+              end
+              object Path10: TPath
+                Data.Path = {
+                  1600000000000000508D6341E7FBD54002000000EB2A6F41FCC0E24002000000
+                  7268734144F0FF4002000000E8056D41BE950B41020000002ED46A41A8930F41
+                  020000003A8B67419CDC124102000000508D6341560E154101000000A01A8740
+                  3E0A6D41020000000CBC5F40866B734102000000545F2540692C6F4102000000
+                  36DA0B401C8E6341020000001C130440A103604102000000EFFEFF3F2A0A5C41
+                  0200000000000040010058410100000000000040C52020400200000000000040
+                  0E40D63F020000000DFB2A40F449803F0200000000006040F449803F02000000
+                  7B2C7040F549803F02000000EB0A80402876883F02000000F9208740560C983F
+                  03000000508D6341E7FBD540}
+                Fill.Kind = Gradient
+                Fill.Gradient.Points = <
+                  item
+                    Color = xFFF0B806
+                    Offset = 0.006211180239915848
+                  end
+                  item
+                    Color = xFFF9DC4F
+                    Offset = 1.000000000000000000
+                  end>
+                Fill.Gradient.StartPosition.Y = 0.788675129413604700
+                Fill.Gradient.StopPosition.X = 1.000000000000000000
+                Fill.Gradient.StopPosition.Y = 0.211324870586395300
+                HitTest = False
+                Position.X = 11.000000000000000000
+                Position.Y = 56.000000000000000000
+                Size.Width = 34.000000000000000000
+                Size.Height = 29.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+              end
+              object Layout10: TLayout
+                Align = Vertical
+                Margins.Top = -20.000000000000000000
+                Margins.Bottom = -20.000000000000000000
+                Position.X = 72.000000000000000000
+                Position.Y = -20.000000000000000000
+                Size.Width = 33.000000000000000000
+                Size.Height = 179.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 4
+                object Label28: TLabel
+                  Align = Top
+                  AutoSize = True
+                  StyledSettings = []
+                  Size.Width = 33.000000000000000000
+                  Size.Height = 16.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Family = 'Roboto'
+                  TextSettings.Font.Size = 13.000000000000000000
+                  TextSettings.Font.StyleExt = {00020000000000000004000000}
+                  TextSettings.FontColor = claWhite
+                  TextSettings.HorzAlign = Center
+                  TextSettings.WordWrap = False
+                  Text = 'N'
+                  TabOrder = 3
+                end
+                object Label29: TLabel
+                  Align = Bottom
+                  AutoSize = True
+                  StyledSettings = []
+                  Position.Y = 163.000000000000000000
+                  Size.Width = 33.000000000000000000
+                  Size.Height = 16.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Family = 'Roboto'
+                  TextSettings.Font.Size = 13.000000000000000000
+                  TextSettings.Font.StyleExt = {00020000000000000004000000}
+                  TextSettings.FontColor = claWhite
+                  TextSettings.HorzAlign = Center
+                  TextSettings.WordWrap = False
+                  Text = 'S'
+                  TabOrder = 2
+                end
+              end
+              object Layout11: TLayout
+                Align = VertCenter
+                Position.Y = 53.000000000000000000
+                Size.Width = 177.000000000000000000
+                Size.Height = 33.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 3
+                object Label30: TLabel
+                  Align = Left
+                  AutoSize = True
+                  StyledSettings = []
+                  Size.Width = 8.000000000000000000
+                  Size.Height = 33.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Family = 'Roboto'
+                  TextSettings.Font.Size = 13.000000000000000000
+                  TextSettings.Font.StyleExt = {00020000000000000004000000}
+                  TextSettings.FontColor = claWhite
+                  TextSettings.HorzAlign = Center
+                  TextSettings.WordWrap = False
+                  Text = 'E'
+                  TabOrder = 3
+                end
+                object Label31: TLabel
+                  Align = Right
+                  AutoSize = True
+                  StyledSettings = []
+                  Position.X = 165.000000000000000000
+                  Size.Width = 12.000000000000000000
+                  Size.Height = 33.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Family = 'Roboto'
+                  TextSettings.Font.Size = 13.000000000000000000
+                  TextSettings.Font.StyleExt = {00020000000000000004000000}
+                  TextSettings.FontColor = claWhite
+                  TextSettings.HorzAlign = Center
+                  TextSettings.WordWrap = False
+                  Text = 'W'
+                  TabOrder = 2
+                end
+              end
+            end
+            object Layout9: TLayout
+              Align = Bottom
+              Margins.Left = 25.000000000000000000
+              Margins.Right = 25.000000000000000000
+              Margins.Bottom = 10.000000000000000000
+              Position.X = 25.000000000000000000
+              Position.Y = 236.000000000000000000
+              Size.Width = 191.000000000000000000
+              Size.Height = 21.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 2
+              object Label26: TLabel
+                Align = Left
+                AutoSize = True
+                StyledSettings = []
+                Size.Width = 60.000000000000000000
+                Size.Height = 21.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Family = 'Roboto'
+                TextSettings.Font.Size = 11.000000000000000000
+                TextSettings.Font.StyleExt = {00020000000000000004000000}
+                TextSettings.FontColor = xFF98C7F4
+                TextSettings.WordWrap = False
+                Text = 'Est. 12 MPH'
+                TabOrder = 2
+              end
+              object Label27: TLabel
+                Align = Right
+                AutoSize = True
+                StyledSettings = []
+                Position.X = 131.000000000000000000
+                Size.Width = 60.000000000000000000
+                Size.Height = 21.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Family = 'Roboto'
+                TextSettings.Font.Size = 11.000000000000000000
+                TextSettings.Font.StyleExt = {00020000000000000004000000}
+                TextSettings.FontColor = xFF98C7F4
+                TextSettings.WordWrap = False
+                Text = 'Est. 12 MPH'
+                TabOrder = 1
+              end
+            end
+          end
+          object Rectangle9: TRectangle
+            Fill.Kind = Gradient
+            Fill.Gradient.Points = <
+              item
+                Color = xFF04132A
+                Offset = 0.003105590119957924
+              end
+              item
+                Color = xFF052742
+                Offset = 1.000000000000000000
+              end>
+            Fill.Gradient.StopPosition.X = 1.000000000000000000
+            HitTest = False
+            Position.X = 541.000000000000000000
+            Position.Y = 59.000000000000000000
+            Size.Width = 241.000000000000000000
+            Size.Height = 510.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = x1EFFFFFF
+            XRadius = 15.000000000000000000
+            YRadius = 15.000000000000000000
+            object Line6: TLine
+              Align = Top
+              HitTest = False
+              LineType = Bottom
+              Size.Width = 241.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Color = x1EFFFFFF
+              object Label34: TLabel
+                Align = Client
+                StyledSettings = []
+                Size.Width = 159.000000000000000000
+                Size.Height = 33.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Family = 'Roboto'
+                TextSettings.Font.Size = 11.000000000000000000
+                TextSettings.Font.StyleExt = {00020000000000000004000000}
+                TextSettings.FontColor = claWhite
+                TextSettings.WordWrap = False
+                Text = 'SUN'
+                TabOrder = 1
+              end
+              object Path13: TPath
+                Align = Left
+                Data.Path = {
+                  8500000000000000000000410000803F02000000146B04410000803F02000000
+                  000008415EA79C3F02000000000008410000C03F010000000000084100002040
+                  020000000000084151AC314002000000146B0441000040400200000000000041
+                  0000404002000000D729F74000004040020000000000F04051AC314002000000
+                  0000F04000002040010000000000F0400000C03F020000000000F0405DA79C3F
+                  02000000D829F740FFFF7F3F02000000000000410000803F0000000000000041
+                  00003041020000007A821A410000304102000000000030417A821A4102000000
+                  000030410000004102000000000030410DFBCA40020000007A821A410000A040
+                  02000000010000410000A040020000000FFBCA400000A040020000000200A040
+                  0DFBCA40020000000200A04000000041020000000200A0407A821A4102000000
+                  0EFBCA4000003041020000000000004100003041000000000000684100000841
+                  02000000146B6C41000008410200000000007041146B04410200000000007041
+                  000000410200000000007041D829F74002000000146B6C410000F04002000000
+                  000068410000F04001000000000058410000F04002000000EC9453410000F040
+                  0200000000005041D729F7400200000000005041000000410200000000005041
+                  146B044102000000EC9453410000084102000000000058410000084103000000
+                  000068410000084100000000000000410000504102000000146B044100005041
+                  0200000000000841EC9453410200000000000841000058410100000000000841
+                  000068410200000000000841146B6C4102000000146B04410000704102000000
+                  000000410000704102000000D729F74000007041020000000000F040146B6C41
+                  020000000000F04000006841010000000000F04000005841020000000000F040
+                  EC94534102000000D829F7400000504102000000000000410000504100000000
+                  00002040000008410200000051AC3140000008410200000000004040146B0441
+                  0200000000004040000000410200000000004040D829F7400200000051AC3140
+                  0000F04002000000000020400000F040010000000000C03F0000F04002000000
+                  5EA79C3F0000F040020000000000803FD729F740020000000000803F00000041
+                  020000000000803F146B0441020000005DA79C3F0000084102000000FFFFBF3F
+                  0000084103000000000020400000084100000000105849401058494002000000
+                  E8D855401FCF3C400200000018276A401FCF3C4002000000F0A7764010584940
+                  01000000F8539B4008AC8440020000009495A140A4ED8A40020000009495A140
+                  5C12954002000000F8539B40F8539B40020000005C1295409495A14002000000
+                  A4ED8A409495A1400200000008AC8440F8539B400100000010584940F0A77640
+                  020000001FCF3C4018276A40020000001FCF3C40E8D855400200000010584940
+                  1058494000000000EFA77640FCA94D41020000003F296A40C9CA504102000000
+                  79E35540B4CB5041020000004260494008AC4D41020000000BDD3C405C8C4A41
+                  0200000060D93C40EA7A454102000000115849401C5A42410100000008AC8440
+                  1C5A324102000000DBEB8A408C392F4102000000BE0E954004392F4102000000
+                  DF4F9B40EE583241020000005390A14081783541020000002892A14047893A41
+                  02000000F8539B40FBA93D4103000000EFA77640FCA94D4100000000FCA94D41
+                  1058494002000000C6894A411ECF3C40020000003A7645411ECF3C4002000000
+                  0456424110584940010000000456324108AC84400200000036352F41A4ED8A40
+                  0200000036352F415C1295400200000004563241F8539B4002000000D2763541
+                  9495A140020000002E893A419495A14002000000FCA93D41F8539B4001000000
+                  FCA94D41F0A776400200000038CC504118276A400200000038CC5041E8D85540
+                  02000000FCA94D41115849400000000004564241FCA94D4102000000ED754541
+                  8CCA5041020000005F874A4114CB504102000000EFA74D412AAB4D4102000000
+                  2AC85041978B4A410200000014C95041D17A454102000000FCA94D411D5A4241
+                  01000000FCA93D411D5A324102000000138A3A418C392F4102000000A1783541
+                  04392F410200000011583241EE58324102000000D6372F418178354102000000
+                  EC362F4147893A410200000004563241FBA93D410300000004564241FCA94D41}
+                Fill.Kind = None
+                HitTest = False
+                Margins.Left = 16.000000000000000000
+                Margins.Right = 10.000000000000000000
+                Position.X = 16.000000000000000000
+                Size.Width = 16.000000000000000000
+                Size.Height = 33.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = claWhite
+                WrapMode = Fit
+              end
+              object Path14: TPath
+                Align = Right
+                Data.Path = {
+                  2A00000000000000000080400000D84002000000651796400000D84002000000
+                  0000A8409BE8E940020000000000A84000000041020000000000A840B30B0B41
+                  0200000065179640000014410200000000008040000014410200000035D15340
+                  000014410200000000003040B30B0B4102000000000030400000004102000000
+                  000030409AE8E9400200000036D153400000D84002000000000080400000D840
+                  03000000000080400000D84000000000000000410000D84002000000B30B0B41
+                  0000D84002000000000014419BE8E94002000000000014410000004102000000
+                  00001441B30B0B4102000000B30B0B4100001441020000000000004100001441
+                  020000009BE8E94000001441020000000000D840B30B0B41020000000000D840
+                  00000041020000000000D8409AE8E940020000009BE8E9400000D84002000000
+                  000000410000D84003000000000000410000D84000000000000040410000D840
+                  02000000B30B4B410000D84002000000000054419BE8E9400200000000005441
+                  000000410200000000005441B30B0B4102000000B30B4B410000144102000000
+                  0000404100001441020000004DF43441000014410200000000002C41B30B0B41
+                  0200000000002C41000000410200000000002C419AE8E940020000004EF43441
+                  0000D84002000000000040410000D84003000000000040410000D840}
+                Fill.Color = xFF8BB0F5
+                HitTest = False
+                Margins.Left = 16.000000000000000000
+                Margins.Right = 10.000000000000000000
+                Position.X = 217.000000000000000000
+                Size.Width = 14.000000000000000000
+                Size.Height = 33.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                WrapMode = Fit
+              end
+            end
+            object ShadowEffect6: TShadowEffect
+              Distance = 0.000099999997473788
+              Direction = 135.000000000000000000
+              Softness = 1.000000000000000000
+              Opacity = 0.200000002980232200
+              ShadowColor = claBlack
+            end
+            object Layout12: TLayout
+              Align = Top
+              Margins.Left = 20.000000000000000000
+              Margins.Top = 20.000000000000000000
+              Margins.Right = 20.000000000000000000
+              Position.X = 20.000000000000000000
+              Position.Y = 53.000000000000000000
+              Size.Width = 201.000000000000000000
+              Size.Height = 119.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 4
+              object Label35: TLabel
+                Align = Top
+                AutoSize = True
+                StyledSettings = []
+                Margins.Bottom = 20.000000000000000000
+                Size.Width = 201.000000000000000000
+                Size.Height = 14.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Family = 'Roboto'
+                TextSettings.Font.Size = 11.000000000000000000
+                TextSettings.Font.StyleExt = {00020000000000000004000000}
+                TextSettings.FontColor = xFF98C7F4
+                TextSettings.WordWrap = False
+                Text = 'Solar radiation'
+                TabOrder = 2
+              end
+              object Layout13: TLayout
+                Align = Left
+                Position.Y = 34.000000000000000000
+                Size.Width = 81.000000000000000000
+                Size.Height = 85.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 4
+                object RoundRect1: TRoundRect
+                  Fill.Color = xFFF1B908
+                  HitTest = False
+                  Position.X = 41.000000000000000000
+                  Position.Y = 74.000000000000000000
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 6.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+                object RoundRect2: TRoundRect
+                  Fill.Color = xFFF1B908
+                  HitTest = False
+                  Position.X = 41.000000000000000000
+                  Position.Y = 64.000000000000000000
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 6.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                  object Path15: TPath
+                    Data.Path = {
+                      1600000000000000508D6341E7FBD54002000000EB2A6F41FCC0E24002000000
+                      7268734144F0FF4002000000E8056D41BE950B41020000002ED46A41A8930F41
+                      020000003A8B67419CDC124102000000508D6341560E154101000000A01A8740
+                      3E0A6D41020000000CBC5F40866B734102000000545F2540692C6F4102000000
+                      36DA0B401C8E6341020000001C130440A103604102000000EFFEFF3F2A0A5C41
+                      0200000000000040010058410100000000000040C52020400200000000000040
+                      0E40D63F020000000DFB2A40F449803F0200000000006040F449803F02000000
+                      7B2C7040F549803F02000000EB0A80402876883F02000000F9208740560C983F
+                      03000000508D6341E7FBD540}
+                    Fill.Kind = Gradient
+                    Fill.Gradient.Points = <
+                      item
+                        Color = xFFF0B806
+                        Offset = 0.006211180239915848
+                      end
+                      item
+                        Color = xFFF9DC4F
+                        Offset = 1.000000000000000000
+                      end>
+                    Fill.Gradient.StartPosition.Y = 0.788675129413604700
+                    Fill.Gradient.StopPosition.X = 1.000000000000000000
+                    Fill.Gradient.StopPosition.Y = 0.211324870586395300
+                    HitTest = False
+                    Position.X = -8.000000000000000000
+                    Position.Y = 1.000000000000000000
+                    Size.Width = 5.000000000000000000
+                    Size.Height = 5.000000000000000000
+                    Size.PlatformDefault = False
+                    Stroke.Kind = None
+                    WrapMode = Fit
+                    object Label36: TLabel
+                      AutoSize = True
+                      StyledSettings = [Family, Style]
+                      Position.X = -17.000000000000000000
+                      Position.Y = -2.000000000000000000
+                      Size.Width = 13.000000000000000000
+                      Size.Height = 8.000000000000000000
+                      Size.PlatformDefault = False
+                      TextSettings.Font.Size = 6.000000000000000000
+                      TextSettings.FontColor = claWhite
+                      TextSettings.WordWrap = False
+                      Text = 'LOW'
+                      TabOrder = 0
+                    end
+                  end
+                end
+                object RoundRect3: TRoundRect
+                  Fill.Color = xFFF1B908
+                  HitTest = False
+                  Opacity = 0.300000011920929000
+                  Position.X = 41.000000000000000000
+                  Position.Y = 55.000000000000000000
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 6.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+                object RoundRect4: TRoundRect
+                  Fill.Color = xFFF1B908
+                  HitTest = False
+                  Opacity = 0.300000011920929000
+                  Position.X = 41.000000000000000000
+                  Position.Y = 45.000000000000000000
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 6.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+                object RoundRect5: TRoundRect
+                  Fill.Color = xFFF1B908
+                  HitTest = False
+                  Opacity = 0.300000011920929000
+                  Position.X = 41.000000000000000000
+                  Position.Y = 36.000000000000000000
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 6.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+                object RoundRect6: TRoundRect
+                  Fill.Color = xFFF1B908
+                  HitTest = False
+                  Opacity = 0.300000011920929000
+                  Position.X = 41.000000000000000000
+                  Position.Y = 26.000000000000000000
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 6.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+                object RoundRect7: TRoundRect
+                  Fill.Color = xFFF1B908
+                  HitTest = False
+                  Opacity = 0.300000011920929000
+                  Position.X = 41.000000000000000000
+                  Position.Y = 17.000000000000000000
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 6.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+                object RoundRect8: TRoundRect
+                  Fill.Color = xFFF1B908
+                  HitTest = False
+                  Opacity = 0.300000011920929000
+                  Position.X = 41.000000000000000000
+                  Position.Y = 7.000000000000000000
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 6.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+              end
+              object Layout16: TLayout
+                Align = Client
+                Size.Width = 120.000000000000000000
+                Size.Height = 85.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 3
+                object Line7: TLine
+                  Align = Client
+                  HitTest = False
+                  LineType = Left
+                  Size.Width = 120.000000000000000000
+                  Size.Height = 85.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Color = x28FFFFFF
+                  Stroke.Dash = Dash
+                  object Label37: TLabel
+                    AutoSize = True
+                    StyledSettings = [Family, Style]
+                    Position.X = 13.000000000000000000
+                    Position.Y = 1.000000000000000000
+                    Size.Width = 23.000000000000000000
+                    Size.Height = 11.000000000000000000
+                    Size.PlatformDefault = False
+                    TextSettings.Font.Size = 8.000000000000000000
+                    TextSettings.FontColor = claWhite
+                    TextSettings.WordWrap = False
+                    Text = 'W/M2'
+                    TabOrder = 3
+                  end
+                  object Label38: TLabel
+                    StyledSettings = [Style]
+                    Position.X = 8.000000000000000000
+                    Position.Y = 14.000000000000000000
+                    Size.Width = 87.000000000000000000
+                    Size.Height = 39.000000000000000000
+                    Size.PlatformDefault = False
+                    TextSettings.Font.Family = 'Roboto'
+                    TextSettings.Font.Size = 36.000000000000000000
+                    TextSettings.FontColor = claWhite
+                    TextSettings.WordWrap = False
+                    Text = '1000'
+                    TabOrder = 0
+                  end
+                  object Label40: TLabel
+                    AutoSize = True
+                    StyledSettings = [Family, Style]
+                    Opacity = 0.800000011920929000
+                    Position.X = 13.000000000000000000
+                    Position.Y = 52.000000000000000000
+                    Size.Width = 56.000000000000000000
+                    Size.Height = 11.000000000000000000
+                    Size.PlatformDefault = False
+                    TextSettings.Font.Size = 8.000000000000000000
+                    TextSettings.FontColor = xFF98C7F4
+                    TextSettings.WordWrap = False
+                    Text = 'Today'#39's peak0.7'
+                    TabOrder = 2
+                  end
+                  object Label41: TLabel
+                    AutoSize = True
+                    StyledSettings = [Family, Style]
+                    Position.X = 13.000000000000000000
+                    Position.Y = 67.000000000000000000
+                    Size.Width = 49.000000000000000000
+                    Size.Height = 12.000000000000000000
+                    Size.PlatformDefault = False
+                    TextSettings.Font.Size = 9.000000000000000000
+                    TextSettings.FontColor = xFF98C7F4
+                    TextSettings.WordWrap = False
+                    Text = '717.6 W/M2'
+                    TabOrder = 1
+                  end
+                end
+              end
+            end
+            object Layout17: TLayout
+              Align = Top
+              Margins.Left = 20.000000000000000000
+              Margins.Top = 35.000000000000000000
+              Margins.Right = 20.000000000000000000
+              Position.X = 20.000000000000000000
+              Position.Y = 361.000000000000000000
+              Size.Width = 201.000000000000000000
+              Size.Height = 119.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 3
+              object Label44: TLabel
+                Align = Top
+                AutoSize = True
+                StyledSettings = []
+                Margins.Bottom = 20.000000000000000000
+                Size.Width = 201.000000000000000000
+                Size.Height = 14.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Family = 'Roboto'
+                TextSettings.Font.Size = 11.000000000000000000
+                TextSettings.Font.StyleExt = {00020000000000000004000000}
+                TextSettings.FontColor = xFF98C7F4
+                TextSettings.WordWrap = False
+                Text = 'Light Index'
+                TabOrder = 2
+              end
+              object Layout18: TLayout
+                Align = Left
+                Position.Y = 34.000000000000000000
+                Size.Width = 81.000000000000000000
+                Size.Height = 85.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 4
+                object RoundRect9: TRoundRect
+                  Fill.Color = xFF87B7E5
+                  HitTest = False
+                  Position.X = 41.000000000000000000
+                  Position.Y = 74.000000000000000000
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 6.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+                object RoundRect10: TRoundRect
+                  Fill.Color = xFF87B7E5
+                  HitTest = False
+                  Position.X = 41.000000000000000000
+                  Position.Y = 64.000000000000000000
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 6.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                  object Path16: TPath
+                    Data.Path = {
+                      1600000000000000508D6341E7FBD54002000000EB2A6F41FCC0E24002000000
+                      7268734144F0FF4002000000E8056D41BE950B41020000002ED46A41A8930F41
+                      020000003A8B67419CDC124102000000508D6341560E154101000000A01A8740
+                      3E0A6D41020000000CBC5F40866B734102000000545F2540692C6F4102000000
+                      36DA0B401C8E6341020000001C130440A103604102000000EFFEFF3F2A0A5C41
+                      0200000000000040010058410100000000000040C52020400200000000000040
+                      0E40D63F020000000DFB2A40F449803F0200000000006040F449803F02000000
+                      7B2C7040F549803F02000000EB0A80402876883F02000000F9208740560C983F
+                      03000000508D6341E7FBD540}
+                    Fill.Color = xFF87B7E5
+                    HitTest = False
+                    Position.X = -8.000000000000000000
+                    Position.Y = 1.000000000000000000
+                    Size.Width = 5.000000000000000000
+                    Size.Height = 5.000000000000000000
+                    Size.PlatformDefault = False
+                    Stroke.Kind = None
+                    WrapMode = Fit
+                    object Label45: TLabel
+                      AutoSize = True
+                      StyledSettings = [Family, Style]
+                      Position.X = -17.000000000000000000
+                      Position.Y = -2.000000000000000000
+                      Size.Width = 13.000000000000000000
+                      Size.Height = 8.000000000000000000
+                      Size.PlatformDefault = False
+                      TextSettings.Font.Size = 6.000000000000000000
+                      TextSettings.FontColor = claWhite
+                      TextSettings.WordWrap = False
+                      Text = 'LOW'
+                      TabOrder = 0
+                    end
+                  end
+                end
+                object RoundRect11: TRoundRect
+                  Fill.Color = xFF87B7E5
+                  HitTest = False
+                  Opacity = 0.300000011920929000
+                  Position.X = 41.000000000000000000
+                  Position.Y = 55.000000000000000000
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 6.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+                object RoundRect12: TRoundRect
+                  Fill.Color = xFF87B7E5
+                  HitTest = False
+                  Opacity = 0.300000011920929000
+                  Position.X = 41.000000000000000000
+                  Position.Y = 45.000000000000000000
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 6.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+                object RoundRect13: TRoundRect
+                  Fill.Color = xFF87B7E5
+                  HitTest = False
+                  Opacity = 0.300000011920929000
+                  Position.X = 41.000000000000000000
+                  Position.Y = 36.000000000000000000
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 6.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+                object RoundRect14: TRoundRect
+                  Fill.Color = xFF87B7E5
+                  HitTest = False
+                  Opacity = 0.300000011920929000
+                  Position.X = 41.000000000000000000
+                  Position.Y = 26.000000000000000000
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 6.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+                object RoundRect15: TRoundRect
+                  Fill.Color = xFF87B7E5
+                  HitTest = False
+                  Opacity = 0.300000011920929000
+                  Position.X = 41.000000000000000000
+                  Position.Y = 17.000000000000000000
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 6.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+                object RoundRect16: TRoundRect
+                  Fill.Color = xFF87B7E5
+                  HitTest = False
+                  Opacity = 0.300000011920929000
+                  Position.X = 41.000000000000000000
+                  Position.Y = 7.000000000000000000
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 6.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+              end
+              object Layout19: TLayout
+                Align = Client
+                Size.Width = 120.000000000000000000
+                Size.Height = 85.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 3
+                object Line8: TLine
+                  Align = Client
+                  HitTest = False
+                  LineType = Left
+                  Size.Width = 120.000000000000000000
+                  Size.Height = 85.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Color = x28FFFFFF
+                  Stroke.Dash = Dash
+                  object Label46: TLabel
+                    AutoSize = True
+                    StyledSettings = [Family, Style]
+                    Position.X = 13.000000000000000000
+                    Position.Y = 1.000000000000000000
+                    Size.Width = 23.000000000000000000
+                    Size.Height = 11.000000000000000000
+                    Size.PlatformDefault = False
+                    TextSettings.Font.Size = 8.000000000000000000
+                    TextSettings.FontColor = claWhite
+                    TextSettings.WordWrap = False
+                    Text = 'W/M2'
+                    TabOrder = 3
+                  end
+                  object Label47: TLabel
+                    StyledSettings = [Style]
+                    Position.X = 8.000000000000000000
+                    Position.Y = 14.000000000000000000
+                    Size.Width = 87.000000000000000000
+                    Size.Height = 39.000000000000000000
+                    Size.PlatformDefault = False
+                    TextSettings.Font.Family = 'Roboto'
+                    TextSettings.Font.Size = 36.000000000000000000
+                    TextSettings.FontColor = claWhite
+                    TextSettings.WordWrap = False
+                    Text = '0.4'
+                    TabOrder = 0
+                  end
+                  object Label48: TLabel
+                    AutoSize = True
+                    StyledSettings = [Family, Style]
+                    Opacity = 0.800000011920929000
+                    Position.X = 13.000000000000000000
+                    Position.Y = 52.000000000000000000
+                    Size.Width = 56.000000000000000000
+                    Size.Height = 11.000000000000000000
+                    Size.PlatformDefault = False
+                    TextSettings.Font.Size = 8.000000000000000000
+                    TextSettings.FontColor = xFF98C7F4
+                    TextSettings.WordWrap = False
+                    Text = 'Today'#39's peak0.7'
+                    TabOrder = 2
+                  end
+                  object Label49: TLabel
+                    AutoSize = True
+                    StyledSettings = [Family, Style]
+                    Position.X = 13.000000000000000000
+                    Position.Y = 67.000000000000000000
+                    Size.Width = 49.000000000000000000
+                    Size.Height = 12.000000000000000000
+                    Size.PlatformDefault = False
+                    TextSettings.Font.Size = 9.000000000000000000
+                    TextSettings.FontColor = xFF98C7F4
+                    TextSettings.WordWrap = False
+                    Text = '717.6 W/M2'
+                    TabOrder = 1
+                  end
+                end
+              end
+            end
+            object Layout20: TLayout
+              Align = Top
+              Margins.Left = 20.000000000000000000
+              Margins.Top = 35.000000000000000000
+              Margins.Right = 20.000000000000000000
+              Position.X = 20.000000000000000000
+              Position.Y = 207.000000000000000000
+              Size.Width = 201.000000000000000000
+              Size.Height = 119.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 2
+              object Label50: TLabel
+                Align = Top
+                AutoSize = True
+                StyledSettings = []
+                Margins.Bottom = 20.000000000000000000
+                Size.Width = 201.000000000000000000
+                Size.Height = 14.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Family = 'Roboto'
+                TextSettings.Font.Size = 11.000000000000000000
+                TextSettings.Font.StyleExt = {00020000000000000004000000}
+                TextSettings.FontColor = xFF98C7F4
+                TextSettings.WordWrap = False
+                Text = 'UV Index'
+                TabOrder = 2
+              end
+              object Layout21: TLayout
+                Align = Left
+                Position.Y = 34.000000000000000000
+                Size.Width = 81.000000000000000000
+                Size.Height = 85.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 4
+                object RoundRect17: TRoundRect
+                  Fill.Color = xFF8908F1
+                  HitTest = False
+                  Position.X = 41.000000000000000000
+                  Position.Y = 74.000000000000000000
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 6.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+                object RoundRect18: TRoundRect
+                  Fill.Color = xFF8908F1
+                  HitTest = False
+                  Position.X = 41.000000000000000000
+                  Position.Y = 64.000000000000000000
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 6.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                  object Path17: TPath
+                    Data.Path = {
+                      1600000000000000508D6341E7FBD54002000000EB2A6F41FCC0E24002000000
+                      7268734144F0FF4002000000E8056D41BE950B41020000002ED46A41A8930F41
+                      020000003A8B67419CDC124102000000508D6341560E154101000000A01A8740
+                      3E0A6D41020000000CBC5F40866B734102000000545F2540692C6F4102000000
+                      36DA0B401C8E6341020000001C130440A103604102000000EFFEFF3F2A0A5C41
+                      0200000000000040010058410100000000000040C52020400200000000000040
+                      0E40D63F020000000DFB2A40F449803F0200000000006040F449803F02000000
+                      7B2C7040F549803F02000000EB0A80402876883F02000000F9208740560C983F
+                      03000000508D6341E7FBD540}
+                    Fill.Color = xFF8908F1
+                    HitTest = False
+                    Position.X = -8.000000000000000000
+                    Position.Y = 1.000000000000000000
+                    Size.Width = 5.000000000000000000
+                    Size.Height = 5.000000000000000000
+                    Size.PlatformDefault = False
+                    Stroke.Kind = None
+                    WrapMode = Fit
+                    object Label51: TLabel
+                      AutoSize = True
+                      StyledSettings = [Family, Style]
+                      Position.X = -17.000000000000000000
+                      Position.Y = -2.000000000000000000
+                      Size.Width = 13.000000000000000000
+                      Size.Height = 8.000000000000000000
+                      Size.PlatformDefault = False
+                      TextSettings.Font.Size = 6.000000000000000000
+                      TextSettings.FontColor = claWhite
+                      TextSettings.WordWrap = False
+                      Text = 'LOW'
+                      TabOrder = 0
+                    end
+                  end
+                end
+                object RoundRect19: TRoundRect
+                  Fill.Color = xFF8908F1
+                  HitTest = False
+                  Opacity = 0.300000011920929000
+                  Position.X = 41.000000000000000000
+                  Position.Y = 55.000000000000000000
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 6.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+                object RoundRect20: TRoundRect
+                  Fill.Color = xFF8908F1
+                  HitTest = False
+                  Opacity = 0.300000011920929000
+                  Position.X = 41.000000000000000000
+                  Position.Y = 45.000000000000000000
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 6.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+                object RoundRect21: TRoundRect
+                  Fill.Color = xFF8908F1
+                  HitTest = False
+                  Opacity = 0.300000011920929000
+                  Position.X = 41.000000000000000000
+                  Position.Y = 36.000000000000000000
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 6.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+                object RoundRect22: TRoundRect
+                  Fill.Color = xFF8908F1
+                  HitTest = False
+                  Opacity = 0.300000011920929000
+                  Position.X = 41.000000000000000000
+                  Position.Y = 26.000000000000000000
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 6.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+                object RoundRect23: TRoundRect
+                  Fill.Color = xFF8908F1
+                  HitTest = False
+                  Opacity = 0.300000011920929000
+                  Position.X = 41.000000000000000000
+                  Position.Y = 17.000000000000000000
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 6.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+                object RoundRect24: TRoundRect
+                  Fill.Color = xFF8908F1
+                  HitTest = False
+                  Opacity = 0.300000011920929000
+                  Position.X = 41.000000000000000000
+                  Position.Y = 7.000000000000000000
+                  Size.Width = 22.000000000000000000
+                  Size.Height = 6.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+              end
+              object Layout22: TLayout
+                Align = Client
+                Size.Width = 120.000000000000000000
+                Size.Height = 85.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 3
+                object Line9: TLine
+                  Align = Client
+                  HitTest = False
+                  LineType = Left
+                  Size.Width = 120.000000000000000000
+                  Size.Height = 85.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Color = x28FFFFFF
+                  Stroke.Dash = Dash
+                  object Label52: TLabel
+                    AutoSize = True
+                    StyledSettings = [Family, Style]
+                    Position.X = 13.000000000000000000
+                    Position.Y = 1.000000000000000000
+                    Size.Width = 23.000000000000000000
+                    Size.Height = 11.000000000000000000
+                    Size.PlatformDefault = False
+                    TextSettings.Font.Size = 8.000000000000000000
+                    TextSettings.FontColor = claWhite
+                    TextSettings.WordWrap = False
+                    Text = 'W/M2'
+                    TabOrder = 3
+                  end
+                  object Label53: TLabel
+                    StyledSettings = [Style]
+                    Position.X = 8.000000000000000000
+                    Position.Y = 14.000000000000000000
+                    Size.Width = 87.000000000000000000
+                    Size.Height = 39.000000000000000000
+                    Size.PlatformDefault = False
+                    TextSettings.Font.Family = 'Roboto'
+                    TextSettings.Font.Size = 36.000000000000000000
+                    TextSettings.FontColor = claWhite
+                    TextSettings.WordWrap = False
+                    Text = '0.3'
+                    TabOrder = 0
+                  end
+                  object Label54: TLabel
+                    AutoSize = True
+                    StyledSettings = [Family, Style]
+                    Opacity = 0.800000011920929000
+                    Position.X = 13.000000000000000000
+                    Position.Y = 52.000000000000000000
+                    Size.Width = 56.000000000000000000
+                    Size.Height = 11.000000000000000000
+                    Size.PlatformDefault = False
+                    TextSettings.Font.Size = 8.000000000000000000
+                    TextSettings.FontColor = xFF98C7F4
+                    TextSettings.WordWrap = False
+                    Text = 'Today'#39's peak0.7'
+                    TabOrder = 2
+                  end
+                  object Label55: TLabel
+                    AutoSize = True
+                    StyledSettings = [Family, Style]
+                    Position.X = 13.000000000000000000
+                    Position.Y = 67.000000000000000000
+                    Size.Width = 49.000000000000000000
+                    Size.Height = 12.000000000000000000
+                    Size.PlatformDefault = False
+                    TextSettings.Font.Size = 9.000000000000000000
+                    TextSettings.FontColor = xFF98C7F4
+                    TextSettings.WordWrap = False
+                    Text = '717.6 W/M2'
+                    TabOrder = 1
+                  end
+                end
+              end
+            end
+          end
+          object Rectangle10: TRectangle
+            Fill.Kind = Gradient
+            Fill.Gradient.Points = <
+              item
+                Color = xFF04132A
+                Offset = 0.003105590119957924
+              end
+              item
+                Color = xFF052742
+                Offset = 1.000000000000000000
+              end>
+            Fill.Gradient.StopPosition.X = 1.000000000000000000
+            HitTest = False
+            Position.X = 801.000000000000000000
+            Position.Y = 245.000000000000000000
+            Size.Width = 241.000000000000000000
+            Size.Height = 324.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = x1EFFFFFF
+            XRadius = 15.000000000000000000
+            YRadius = 15.000000000000000000
+            object Line10: TLine
+              Align = Top
+              HitTest = False
+              LineType = Bottom
+              Size.Width = 241.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Color = x1EFFFFFF
+              object Label42: TLabel
+                Align = Client
+                StyledSettings = []
+                Size.Width = 159.000000000000000000
+                Size.Height = 33.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Family = 'Roboto'
+                TextSettings.Font.Size = 11.000000000000000000
+                TextSettings.Font.StyleExt = {00020000000000000004000000}
+                TextSettings.FontColor = claWhite
+                TextSettings.WordWrap = False
+                Text = 'WIND'
+                TabOrder = 1
+              end
+              object Path18: TPath
+                Align = Left
+                Data.Path = {
+                  4200000000000000000000410000B04002000000BDA1DC4063F2AF4002000000
+                  64F2BF40BBA1CC40020000000000C040FFFFEF40020000000000C04051AC0941
+                  020000005FA7DC4000001841020000000100004100001841010000003E0A4741
+                  00001841010000001F854341E17A1441020000007B003F41A0A10F4102000000
+                  14453F41C109084102000000551E44411E850341020000001CBA48418973FE40
+                  020000001BDF4F418973FE4002000000E27A54411F85034101000000E27A6C41
+                  1F851B4102000000C62871418034204102000000C628714180CB274102000000
+                  E27A6C41E27A2C4101000000E27A5441E27A44410200000048F64F412A544941
+                  02000000695E4841CF98494102000000208543413414454102000000D8AB3E41
+                  998F40410200000033673E41BAF7384102000000CEEB4241721E344102000000
+                  171D43418DE93341020000003C50434168B6334102000000218543411F853341
+                  01000000400A47410000304101000000000000410000304102000000E224C240
+                  6301304102000000BEFD8F4011F0164102000000F8FA8F400605F04002000000
+                  1AFA8F4050AADC400200000035FD9440F0A3C940020000002C879E40CBCCB840
+                  02000000B6FEBC40BAF7824002000000A0AA00417C0D60400200000029951B41
+                  487E8E400200000039262D419A60A240020000009A01384151A1C74002000000
+                  000038410000F0400100000000003841CDCCF0400200000014AE3341CBA1F940
+                  02000000A01A3141EC51024102000000BA493041000008410100000046B61B41
+                  00000841020000006E8C2441A763F14002000000F74D1F415B3FCA4002000000
+                  CBFF0F410A93B8400200000083220B411DF5B24002000000ED9D05411300B040
+                  02000000000000410000B04000000000000030400000184101000000B6F37D40
+                  000018410200000089418840F853214102000000A47095400681294102000000
+                  D578A5400000304101000000000030400000304102000000867D154000003041
+                  02000000000000409EA02A410200000000000040000024410200000000000040
+                  615F1D4102000000877D154000001841020000000100304000001841}
+                Fill.Color = claWhite
+                HitTest = False
+                Margins.Left = 16.000000000000000000
+                Margins.Right = 10.000000000000000000
+                Position.X = 16.000000000000000000
+                Size.Width = 16.000000000000000000
+                Size.Height = 33.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                WrapMode = Fit
+              end
+              object Path19: TPath
+                Align = Right
+                Data.Path = {
+                  2A00000000000000000080400000D84002000000651796400000D84002000000
+                  0000A8409BE8E940020000000000A84000000041020000000000A840B30B0B41
+                  0200000065179640000014410200000000008040000014410200000035D15340
+                  000014410200000000003040B30B0B4102000000000030400000004102000000
+                  000030409AE8E9400200000036D153400000D84002000000000080400000D840
+                  03000000000080400000D84000000000000000410000D84002000000B30B0B41
+                  0000D84002000000000014419BE8E94002000000000014410000004102000000
+                  00001441B30B0B4102000000B30B0B4100001441020000000000004100001441
+                  020000009BE8E94000001441020000000000D840B30B0B41020000000000D840
+                  00000041020000000000D8409AE8E940020000009BE8E9400000D84002000000
+                  000000410000D84003000000000000410000D84000000000000040410000D840
+                  02000000B30B4B410000D84002000000000054419BE8E9400200000000005441
+                  000000410200000000005441B30B0B4102000000B30B4B410000144102000000
+                  0000404100001441020000004DF43441000014410200000000002C41B30B0B41
+                  0200000000002C41000000410200000000002C419AE8E940020000004EF43441
+                  0000D84002000000000040410000D84003000000000040410000D840}
+                Fill.Color = xFF8BB0F5
+                HitTest = False
+                Margins.Left = 16.000000000000000000
+                Margins.Right = 10.000000000000000000
+                Position.X = 217.000000000000000000
+                Size.Width = 14.000000000000000000
+                Size.Height = 33.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                WrapMode = Fit
+              end
+            end
+            object ShadowEffect7: TShadowEffect
+              Distance = 0.000099999997473788
+              Direction = 135.000000000000000000
+              Softness = 1.000000000000000000
+              Opacity = 0.200000002980232200
+              ShadowColor = claBlack
+            end
+            object Circle4: TCircle
+              Align = Client
+              Fill.Kind = None
+              HitTest = False
+              Margins.Left = 48.000000000000000000
+              Margins.Top = 40.000000000000000000
+              Margins.Right = 48.000000000000000000
+              Margins.Bottom = 40.000000000000000000
+              Size.Width = 145.000000000000000000
+              Size.Height = 161.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Color = x785376C3
+              Stroke.Thickness = 6.000000000000000000
+              Stroke.Cap = Round
+              object Layout23: TLayout
+                Align = VertCenter
+                Margins.Left = -38.000000000000000000
+                Margins.Right = -38.000000000000000000
+                Position.X = -38.000000000000000000
+                Position.Y = 64.000000000000000000
+                Size.Width = 221.000000000000000000
+                Size.Height = 33.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 3
+                object Label59: TLabel
+                  Align = Left
+                  AutoSize = True
+                  StyledSettings = []
+                  Size.Width = 23.000000000000000000
+                  Size.Height = 33.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Family = 'Roboto'
+                  TextSettings.Font.Size = 10.000000000000000000
+                  TextSettings.Font.StyleExt = {00020000000000000004000000}
+                  TextSettings.FontColor = claWhite
+                  TextSettings.HorzAlign = Center
+                  TextSettings.WordWrap = False
+                  Text = '6 AM'
+                  TabOrder = 3
+                end
+                object Label60: TLabel
+                  Align = Right
+                  AutoSize = True
+                  StyledSettings = []
+                  Position.X = 198.000000000000000000
+                  Size.Width = 23.000000000000000000
+                  Size.Height = 33.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Family = 'Roboto'
+                  TextSettings.Font.Size = 10.000000000000000000
+                  TextSettings.Font.StyleExt = {00020000000000000004000000}
+                  TextSettings.FontColor = claWhite
+                  TextSettings.HorzAlign = Center
+                  TextSettings.WordWrap = False
+                  Text = '6 PM'
+                  TabOrder = 2
+                end
+              end
+              object Layout15: TLayout
+                Align = HorzCenter
+                Margins.Top = -10.000000000000000000
+                Margins.Bottom = -10.000000000000000000
+                Position.X = 56.000000000000000000
+                Position.Y = -10.000000000000000000
+                Size.Width = 33.000000000000000000
+                Size.Height = 181.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 4
+                object Label57: TLabel
+                  Align = Top
+                  AutoSize = True
+                  StyledSettings = []
+                  Size.Width = 33.000000000000000000
+                  Size.Height = 13.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Family = 'Roboto'
+                  TextSettings.Font.Size = 10.000000000000000000
+                  TextSettings.Font.StyleExt = {00020000000000000004000000}
+                  TextSettings.FontColor = claWhite
+                  TextSettings.HorzAlign = Center
+                  TextSettings.WordWrap = False
+                  Text = '12 PM'
+                  TabOrder = 3
+                end
+                object Label58: TLabel
+                  Align = Bottom
+                  AutoSize = True
+                  StyledSettings = []
+                  Position.Y = 168.000000000000000000
+                  Size.Width = 33.000000000000000000
+                  Size.Height = 13.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Family = 'Roboto'
+                  TextSettings.Font.Size = 10.000000000000000000
+                  TextSettings.Font.StyleExt = {00020000000000000004000000}
+                  TextSettings.FontColor = claWhite
+                  TextSettings.HorzAlign = Center
+                  TextSettings.WordWrap = False
+                  Text = '12 AM'
+                  TabOrder = 2
+                end
+              end
+              object Circle5: TCircle
+                Align = Client
+                Fill.Kind = None
+                HitTest = False
+                Margins.Left = 20.000000000000000000
+                Margins.Top = 20.000000000000000000
+                Margins.Right = 20.000000000000000000
+                Margins.Bottom = 20.000000000000000000
+                Size.Width = 105.000000000000000000
+                Size.Height = 121.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = x785376C3
+                Stroke.Thickness = 6.000000000000000000
+                Stroke.Cap = Round
+                object Label43: TLabel
+                  Align = Center
+                  AutoSize = True
+                  StyledSettings = []
+                  Opacity = 0.600000023841857900
+                  Size.Width = 57.000000000000000000
+                  Size.Height = 13.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Family = 'Roboto'
+                  TextSettings.Font.Size = 10.000000000000000000
+                  TextSettings.FontColor = claWhite
+                  TextSettings.WordWrap = False
+                  Text = '12 hr 59 min'
+                  TabOrder = 1
+                end
+                object Arc3: TArc
+                  Align = Center
+                  HitTest = False
+                  Size.Width = 105.000000000000000000
+                  Size.Height = 105.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Color = xFF81B1D3
+                  Stroke.Thickness = 6.000000000000000000
+                  Stroke.Cap = Round
+                  StartAngle = 45.000000000000000000
+                  EndAngle = -190.000000000000000000
+                end
+              end
+              object Arc2: TArc
+                Align = Center
+                HitTest = False
+                Size.Width = 147.000000000000000000
+                Size.Height = 147.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = xFFF1B908
+                Stroke.Thickness = 10.000000000000000000
+                Stroke.Cap = Round
+                EndAngle = -180.000000000000000000
+              end
+            end
+            object GridPanelLayout3: TGridPanelLayout
+              Align = Bottom
+              HitTest = False
+              Margins.Top = -20.000000000000000000
+              Margins.Bottom = 20.000000000000000000
+              Position.Y = 254.000000000000000000
+              Size.Width = 241.000000000000000000
+              Size.Height = 50.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 2
+              ColumnCollection = <
+                item
+                  Value = 50.000000000000000000
+                end
+                item
+                  Value = 50.000000000000000000
+                end>
+              ControlCollection = <
+                item
+                  Column = 0
+                  Control = Layout24
+                  Row = 0
+                end
+                item
+                  Column = 1
+                  Control = Layout25
+                  Row = 0
+                end>
+              RowCollection = <
+                item
+                  Value = 100.000000000000000000
+                end>
+              object Layout24: TLayout
+                Align = Client
+                Margins.Left = 20.000000000000000000
+                Size.Width = 100.500000000000000000
+                Size.Height = 50.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                object Label56: TLabel
+                  Align = Top
+                  StyledSettings = [Family, Style]
+                  Size.Width = 100.500000000000000000
+                  Size.Height = 17.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 10.000000000000000000
+                  TextSettings.FontColor = claWhite
+                  Text = 'Rise'
+                  TabOrder = 2
+                end
+                object Label61: TLabel
+                  Align = Bottom
+                  AutoSize = True
+                  StyledSettings = [Family, Style]
+                  Margins.Left = 10.000000000000000000
+                  Position.X = 10.000000000000000000
+                  Position.Y = 35.000000000000000000
+                  Size.Width = 90.500000000000000000
+                  Size.Height = 15.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 11.000000000000000000
+                  TextSettings.FontColor = xBEFFFFFF
+                  Text = '6:00 AM'
+                  TabOrder = 0
+                  object Circle6: TCircle
+                    Align = Left
+                    Fill.Color = xFF70ADCD
+                    HitTest = False
+                    Margins.Left = -10.000000000000000000
+                    Position.X = -10.000000000000000000
+                    Size.Width = 5.000000000000000000
+                    Size.Height = 15.000000000000000000
+                    Size.PlatformDefault = False
+                    Stroke.Kind = None
+                  end
+                end
+                object Label64: TLabel
+                  Align = Bottom
+                  AutoSize = True
+                  StyledSettings = [Family, Style]
+                  Margins.Left = 10.000000000000000000
+                  Position.X = 10.000000000000000000
+                  Position.Y = 20.000000000000000000
+                  Size.Width = 90.500000000000000000
+                  Size.Height = 15.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 11.000000000000000000
+                  TextSettings.FontColor = xBEFFFFFF
+                  Text = '6:00 AM'
+                  TabOrder = 1
+                  object Circle7: TCircle
+                    Align = Left
+                    Fill.Color = xFFFDCD14
+                    HitTest = False
+                    Margins.Left = -10.000000000000000000
+                    Position.X = -10.000000000000000000
+                    Size.Width = 5.000000000000000000
+                    Size.Height = 15.000000000000000000
+                    Size.PlatformDefault = False
+                    Stroke.Kind = None
+                  end
+                end
+              end
+              object Layout25: TLayout
+                Align = Client
+                Margins.Right = 20.000000000000000000
+                Size.Width = 100.500000000000000000
+                Size.Height = 50.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 1
+                object Label62: TLabel
+                  Align = Top
+                  StyledSettings = [Family, Style]
+                  Size.Width = 100.500000000000000000
+                  Size.Height = 17.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 10.000000000000000000
+                  TextSettings.FontColor = claWhite
+                  TextSettings.HorzAlign = Trailing
+                  Text = 'Set'
+                  TabOrder = 2
+                end
+                object Label63: TLabel
+                  Align = Bottom
+                  AutoSize = True
+                  StyledSettings = [Family, Style]
+                  Margins.Right = 10.000000000000000000
+                  Position.Y = 35.000000000000000000
+                  Size.Width = 90.500000000000000000
+                  Size.Height = 15.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 11.000000000000000000
+                  TextSettings.FontColor = xBEFFFFFF
+                  TextSettings.HorzAlign = Trailing
+                  Text = '10:09 PM'
+                  TabOrder = 0
+                  object Circle8: TCircle
+                    Align = Right
+                    Fill.Color = xFF70ADCD
+                    HitTest = False
+                    Margins.Left = -10.000000000000000000
+                    Margins.Right = -10.000000000000000000
+                    Position.X = 95.500000000000000000
+                    Size.Width = 5.000000000000000000
+                    Size.Height = 15.000000000000000000
+                    Size.PlatformDefault = False
+                    Stroke.Kind = None
+                  end
+                end
+                object Label65: TLabel
+                  Align = Bottom
+                  AutoSize = True
+                  StyledSettings = [Family, Style]
+                  Margins.Right = 10.000000000000000000
+                  Position.Y = 20.000000000000000000
+                  Size.Width = 90.500000000000000000
+                  Size.Height = 15.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 11.000000000000000000
+                  TextSettings.FontColor = xBEFFFFFF
+                  TextSettings.HorzAlign = Trailing
+                  Text = '7:00 PM'
+                  TabOrder = 1
+                  object Circle9: TCircle
+                    Align = Right
+                    Fill.Color = xFFFDCD14
+                    HitTest = False
+                    Margins.Left = -10.000000000000000000
+                    Margins.Right = -10.000000000000000000
+                    Position.X = 95.500000000000000000
+                    Size.Width = 5.000000000000000000
+                    Size.Height = 15.000000000000000000
+                    Size.PlatformDefault = False
+                    Stroke.Kind = None
+                  end
+                end
+              end
+            end
+          end
+        end
+        object Path3DMoon: TPath3D
+          Position.X = 220.000000000000000000
+          Position.Y = 150.000000000000000000
+          Position.Z = -30.000000000000000000
+          RotationAngle.Y = -20.000000000000000000
+          Width = 60.000000000000000000
+          Height = 60.000000000000000000
+          Depth = 25.000000000000000000
+          Projection = Screen
+          HitTest = False
+          Path.Path = {
+            1F0000000000000048E18241B6F35F4102000000E08962414D858E4102000000
+            947614417A0199410200000060BFAE402265874102000000A0D38D405DA68241
+            02000000321D63405A4178410200000006003840A69B684102000000DE082C40
+            043B6441020000007E873040C4415E4102000000060A4240FA435B4102000000
+            2AB9444096CE5A41020000002AA147407D6F5A410200000026B04A40F6285A41
+            020000003A89C540AAF1484102000000590EF940F4FD344102000000D6780B41
+            B0721841020000004D371B41FED4F44002000000AF471F410C02B34002000000
+            A34514419A993140020000002607134100FC1C40020000008D321641ED3C0840
+            02000000F3591B41FB42034002000000CC3F1C410E65024002000000722C1D41
+            F80C02400200000095181E41713D024002000000488264416C77114002000000
+            82408D411F11C1400200000042598B4143F22641020000005DCE8A418E043B41
+            02000000DAE68741AE8C4E41020000003CDF8241B7F35F41}
+          Flatness = 0.050000000745058060
+          Sides = [Front, Back, Shaft]
+          MaterialBackSource = LightMaterialSourceMoon
+          MaterialShaftSource = LightMaterialSourceMoon
+          MaterialSource = LightMaterialSourceMoon
+          Quanternion = '(0,0.17364826798439,0,-0.984807848930359)'
+          object Sphere4: TSphere
+            Position.X = -20.000000000000000000
+            Position.Y = 25.000000000000000000
+            Position.Z = -30.000000000000000000
+            Scale.X = 0.400000005960464500
+            Scale.Y = 0.400000005960464500
+            Scale.Z = 0.400000005960464500
+            Width = 80.000000000000000000
+            Height = 80.000000000000000000
+            Depth = 80.000000000000000000
+            Projection = Screen
+            HitTest = False
+            SubdivisionsAxes = 50
+            SubdivisionsHeight = 50
+            MaterialSource = LightMaterialSourceClouds
+            object Sphere5: TSphere
+              Position.X = -25.000000000000000000
+              Position.Y = 8.000000000000000000
+              Position.Z = -10.000000000000000000
+              Width = 70.000000000000000000
+              Height = 70.000000000000000000
+              Depth = 70.000000000000000000
+              Projection = Screen
+              HitTest = False
+              SubdivisionsAxes = 50
+              SubdivisionsHeight = 50
+              MaterialSource = LightMaterialSourceClouds
+            end
+            object Sphere6: TSphere
+              Position.X = 35.000000000000000000
+              Position.Y = 8.000000000000000000
+              Position.Z = -10.000000000000000000
+              Width = 70.000000000000000000
+              Height = 70.000000000000000000
+              Depth = 70.000000000000000000
+              Projection = Screen
+              HitTest = False
+              SubdivisionsAxes = 50
+              SubdivisionsHeight = 50
+              MaterialSource = LightMaterialSourceClouds
+            end
+          end
+          object Sphere7: TSphere
+            Position.X = 20.000000000000000000
+            Position.Z = -30.000000000000000000
+            Scale.X = 0.300000011920929000
+            Scale.Y = 0.300000011920929000
+            Scale.Z = 0.300000011920929000
+            Width = 80.000000000000000000
+            Height = 80.000000000000000000
+            Depth = 80.000000000000000000
+            Projection = Screen
+            HitTest = False
+            SubdivisionsAxes = 50
+            SubdivisionsHeight = 50
+            MaterialSource = LightMaterialSourceClouds
+            object Sphere8: TSphere
+              Position.X = -25.000000000000000000
+              Position.Y = 8.000000000000000000
+              Position.Z = -10.000000000000000000
+              Width = 70.000000000000000000
+              Height = 70.000000000000000000
+              Depth = 70.000000000000000000
+              Projection = Screen
+              HitTest = False
+              SubdivisionsAxes = 50
+              SubdivisionsHeight = 50
+              MaterialSource = LightMaterialSourceClouds
+            end
+            object Sphere9: TSphere
+              Position.X = 35.000000000000000000
+              Position.Y = 8.000000000000000000
+              Position.Z = -10.000000000000000000
+              Width = 70.000000000000000000
+              Height = 70.000000000000000000
+              Depth = 70.000000000000000000
+              Projection = Screen
+              HitTest = False
+              SubdivisionsAxes = 50
+              SubdivisionsHeight = 50
+              MaterialSource = LightMaterialSourceClouds
+            end
+          end
+        end
+      end
+      object Layer3DOver: TLayer3D
+        Height = 650.000000000000000000
+        HitTest = False
+        Position.Z = -100.000000000000000000
+        Projection = Screen
+        Resolution = 50
+        StyleLookup = 'backgroundstyle'
+        Transparency = True
+        Width = 1070.000000000000000000
+        object Rectangle5: TRectangle
+          Fill.Kind = Gradient
+          Fill.Gradient.Points = <
+            item
+              Color = xFF04132A
+              Offset = 0.003105590119957924
+            end
+            item
+              Color = xFF052742
+              Offset = 1.000000000000000000
+            end>
+          Fill.Gradient.StopPosition.X = 1.000000000000000000
+          HitTest = False
+          Position.X = 768.000000000000000000
+          Position.Y = 92.000000000000000000
+          Scale.X = 0.899999976158142100
+          Scale.Y = 0.899999976158142100
+          Size.Width = 241.000000000000000000
+          Size.Height = 160.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Color = x1EFFFFFF
+          XRadius = 15.000000000000000000
+          YRadius = 15.000000000000000000
+          object Line3: TLine
+            Align = Top
+            HitTest = False
+            LineType = Bottom
+            Size.Width = 241.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = x1EFFFFFF
+            object Label5: TLabel
+              Align = Client
+              AutoSize = True
+              StyledSettings = []
+              Size.Width = 164.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Family = 'Roboto'
+              TextSettings.Font.Size = 11.000000000000000000
+              TextSettings.Font.StyleExt = {00020000000000000004000000}
+              TextSettings.FontColor = claWhite
+              TextSettings.WordWrap = False
+              Text = 'TEMPERATURE'
+              TabOrder = 1
+            end
+            object Path3: TPath
+              Align = Left
+              Data.Path = {
+                3E00000000000000000090400000604002000000000090402EECEB3F02000000
+                0EFBBA40F8FFFF3E020000000100F0400000003F0200000079821241F8FFFF3E
+                02000000000028412EECEB3F0200000000002841FEFF5F400100000000002841
+                FCA90D41020000001C613F41762C28410200000079D73C41E09D504102000000
+                FF542241FCFE67410200000085D2074118607F410200000037C2BE4075D67C41
+                0200000000009040FB53624102000000ACAA4A406A234A4102000000ACAA4A40
+                90DA254102000000FEFF8F40FEA90D4103000000000090400000604000000000
+                0000F0400000004002000000867DD54000000040020000000000C0400DFB2A40
+                020000000000C04000006040010000000000C0409A99174101000000D7A3B840
+                B91E1B4102000000C6C0984065692A41020000003CB2974098BB434102000000
+                9147B6401FAD534102000000E6DCD440A79E634102000000A5C00341EC256441
+                020000002DB2134142DB544102000000B5A323419790454102000000FA2A2441
+                643E2C41020000004FE01441DC4C1C4102000000B57D14410EE61B4102000000
+                F918144152811B41020000002AB21341B81E1B410100000000001041B29D1741
+                01000000000010410000604002000000000010410DFB2A40020000003D410541
+                00000040020000000000F0400000004000000000000000410000C04002000000
+                00000041D729B7400200000029D6F8400000B040020000000000F0400000B040
+                02000000D729E7400000B040020000000000E040D729B740020000000000E040
+                0000C040010000000000E040295C214102000000A601C7403DC7254102000000
+                9BE8B9409A7D334102000000C3BEC240C7FC3F4102000000EC94CB40F47B4C41
+                02000000A601E7407A0853410200000000000041659D4E41020000002D7F0C41
+                51324A4102000000B30B1341F47B3C41020000009EA00E41C7FC2F4102000000
+                03360C411727294102000000B0D50641C4C623410200000000000041295C2141
+                03000000000000410000C040}
+              Fill.Color = claWhite
+              HitTest = False
+              Margins.Left = 16.000000000000000000
+              Margins.Right = 10.000000000000000000
+              Position.X = 16.000000000000000000
+              Size.Width = 11.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              WrapMode = Fit
+            end
+            object Path7: TPath
+              Align = Right
+              Data.Path = {
+                2A00000000000000000080400000D84002000000651796400000D84002000000
+                0000A8409BE8E940020000000000A84000000041020000000000A840B30B0B41
+                0200000065179640000014410200000000008040000014410200000035D15340
+                000014410200000000003040B30B0B4102000000000030400000004102000000
+                000030409AE8E9400200000036D153400000D84002000000000080400000D840
+                03000000000080400000D84000000000000000410000D84002000000B30B0B41
+                0000D84002000000000014419BE8E94002000000000014410000004102000000
+                00001441B30B0B4102000000B30B0B4100001441020000000000004100001441
+                020000009BE8E94000001441020000000000D840B30B0B41020000000000D840
+                00000041020000000000D8409AE8E940020000009BE8E9400000D84002000000
+                000000410000D84003000000000000410000D84000000000000040410000D840
+                02000000B30B4B410000D84002000000000054419BE8E9400200000000005441
+                000000410200000000005441B30B0B4102000000B30B4B410000144102000000
+                0000404100001441020000004DF43441000014410200000000002C41B30B0B41
+                0200000000002C41000000410200000000002C419AE8E940020000004EF43441
+                0000D84002000000000040410000D84003000000000040410000D840}
+              Fill.Color = xFF8BB0F5
+              HitTest = False
+              Margins.Left = 16.000000000000000000
+              Margins.Right = 10.000000000000000000
+              Position.X = 217.000000000000000000
+              Size.Width = 14.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              WrapMode = Fit
+            end
+          end
+          object Label6: TLabel
+            Align = Top
+            AutoSize = True
+            StyledSettings = []
+            Margins.Top = 10.000000000000000000
+            Position.Y = 43.000000000000000000
+            Size.Width = 241.000000000000000000
+            Size.Height = 61.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Roboto'
+            TextSettings.Font.Size = 50.000000000000000000
+            TextSettings.FontColor = claWhite
+            TextSettings.HorzAlign = Center
+            TextSettings.WordWrap = False
+            Text = '23'#186
+            TabOrder = 1
+          end
+          object ShadowEffect3: TShadowEffect
+            Distance = 50.000000000000000000
+            Direction = 135.000000000000000000
+            Softness = 1.600000023841858000
+            Opacity = 0.300000011920929000
+            ShadowColor = claBlack
+          end
+          object GridPanelLayout1: TGridPanelLayout
+            Align = Bottom
+            HitTest = False
+            Position.Y = 110.000000000000000000
+            Size.Width = 241.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 2
+            ColumnCollection = <
+              item
+                Value = 33.331298828125000000
+              end
+              item
+                Value = 33.331298828125000000
+              end
+              item
+                Value = 33.331298828125000000
+              end>
+            ControlCollection = <
+              item
+                Column = 0
+                Control = Layout1
+                Row = 0
+              end
+              item
+                Column = 1
+                Control = Layout2
+                Row = 0
+              end
+              item
+                Column = 2
+                Control = Layout3
+                Row = 0
+              end>
+            RowCollection = <
+              item
+                Value = 100.000000000000000000
+              end>
+            object Layout1: TLayout
+              Align = Client
+              Margins.Left = 20.000000000000000000
+              Margins.Right = 10.000000000000000000
+              Margins.Bottom = 20.000000000000000000
+              Size.Width = 50.328430175781250000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 2
+              object Label7: TLabel
+                Align = Top
+                StyledSettings = [Family, Style]
+                Size.Width = 50.328430175781250000
+                Size.Height = 17.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Size = 8.000000000000000000
+                TextSettings.FontColor = xFF7FCEDE
+                Text = 'DEW POINT'
+                TabOrder = 1
+              end
+              object Label8: TLabel
+                Align = Client
+                StyledSettings = [Family, Style]
+                Size.Width = 50.328430175781250000
+                Size.Height = 13.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.FontColor = claWhite
+                Text = '23'#8451
+                TabOrder = 0
+              end
+            end
+            object Layout2: TLayout
+              Align = Client
+              Margins.Left = 10.000000000000000000
+              Margins.Right = 10.000000000000000000
+              Margins.Bottom = 20.000000000000000000
+              Size.Width = 60.328430175781250000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 1
+              object Label9: TLabel
+                Align = Top
+                StyledSettings = [Family, Style]
+                Size.Width = 60.328430175781250000
+                Size.Height = 17.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Size = 8.000000000000000000
+                TextSettings.FontColor = xFF7FCEDE
+                Text = 'YESTERDAY'
+                TabOrder = 1
+              end
+              object Label10: TLabel
+                Align = Client
+                StyledSettings = [Family, Style]
+                Size.Width = 60.328430175781250000
+                Size.Height = 13.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.FontColor = claWhite
+                Text = #10071'27'#8451
+                TabOrder = 0
+              end
+              object Rectangle2: TRectangle
+                Align = Contents
+                Fill.Kind = None
+                Margins.Left = -10.000000000000000000
+                Margins.Right = -10.000000000000000000
+                Sides = [Left, Right]
+                Size.Width = 80.328430175781250000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Color = x64FFFFFF
+                Stroke.Dash = Dash
+              end
+            end
+            object Layout3: TLayout
+              Align = Client
+              Margins.Left = 10.000000000000000000
+              Margins.Right = 20.000000000000000000
+              Margins.Bottom = 20.000000000000000000
+              Size.Width = 50.328430175781250000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 0
+              object Label11: TLabel
+                Align = Top
+                StyledSettings = [Family, Style]
+                Size.Width = 50.328430175781250000
+                Size.Height = 17.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Size = 8.000000000000000000
+                TextSettings.FontColor = xFF7FCEDE
+                Text = 'FEELS LIKE'
+                TabOrder = 1
+              end
+              object Label12: TLabel
+                Align = Client
+                StyledSettings = [Family, Style]
+                Size.Width = 50.328430175781250000
+                Size.Height = 13.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.FontColor = claWhite
+                Text = '23'#8451
+                TabOrder = 0
+              end
+            end
+          end
+        end
+        object Rectangle8: TRectangle
+          Fill.Kind = Gradient
+          Fill.Gradient.Points = <
+            item
+              Color = xFF04132A
+              Offset = 0.003105590119957924
+            end
+            item
+              Color = xFF052742
+              Offset = 1.000000000000000000
+            end>
+          Fill.Gradient.StopPosition.X = 1.000000000000000000
+          HitTest = False
+          Position.X = 314.000000000000000000
+          Position.Y = 342.000000000000000000
+          Scale.X = 0.899999976158142100
+          Scale.Y = 0.899999976158142100
+          Size.Width = 234.000000000000000000
+          Size.Height = 220.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Color = x1EFFFFFF
+          XRadius = 15.000000000000000000
+          YRadius = 15.000000000000000000
+          object Line5: TLine
+            Align = Top
+            HitTest = False
+            LineType = Bottom
+            Size.Width = 234.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = x1EFFFFFF
+            object Label32: TLabel
+              Align = Client
+              StyledSettings = []
+              Size.Width = 156.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Family = 'Roboto'
+              TextSettings.Font.Size = 11.000000000000000000
+              TextSettings.Font.StyleExt = {00020000000000000004000000}
+              TextSettings.FontColor = claWhite
+              TextSettings.WordWrap = False
+              Text = 'HUMIDITY'
+              TabOrder = 1
+            end
+            object Path11: TPath
+              Align = Left
+              Data.Path = {
+                1C0000000000000008ACF44021B0923F0200000074ECFA407B3C733F02000000
+                C6890241793C733F02000000FCA9054120B0923F020000000AD709415739B43F
+                0200000027311C41DD24264002000000508D2D419CC484400200000008AC3E41
+                8FC2B5400200000000005041AE47F54002000000000050410000184102000000
+                00005041E17A3441020000009CC44641D7A34A410200000077BE374114AE5941
+                02000000B4C8284108AC684102000000F0A71441000070410200000000000041
+                000070410200000020B0D6400000704102000000986EAE4008AC684102000000
+                1283904014AE59410200000091ED6440D7A34A410200000000004040FA7E3441
+                0200000000004040000018410200000000004040AE47F54002000000F0A78240
+                90C2B5400200000060E5A440CDCC8440020000006CD5BC40C449454002000000
+                8483D7409CFD04400200000008ACF44020B0923F}
+              Fill.Kind = None
+              HitTest = False
+              Margins.Left = 16.000000000000000000
+              Margins.Right = 10.000000000000000000
+              Position.X = 16.000000000000000000
+              Size.Width = 12.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Color = claWhite
+              WrapMode = Fit
+            end
+            object Path12: TPath
+              Align = Right
+              Data.Path = {
+                2A00000000000000000080400000D84002000000651796400000D84002000000
+                0000A8409BE8E940020000000000A84000000041020000000000A840B30B0B41
+                0200000065179640000014410200000000008040000014410200000035D15340
+                000014410200000000003040B30B0B4102000000000030400000004102000000
+                000030409AE8E9400200000036D153400000D84002000000000080400000D840
+                03000000000080400000D84000000000000000410000D84002000000B30B0B41
+                0000D84002000000000014419BE8E94002000000000014410000004102000000
+                00001441B30B0B4102000000B30B0B4100001441020000000000004100001441
+                020000009BE8E94000001441020000000000D840B30B0B41020000000000D840
+                00000041020000000000D8409AE8E940020000009BE8E9400000D84002000000
+                000000410000D84003000000000000410000D84000000000000040410000D840
+                02000000B30B4B410000D84002000000000054419BE8E9400200000000005441
+                000000410200000000005441B30B0B4102000000B30B4B410000144102000000
+                0000404100001441020000004DF43441000014410200000000002C41B30B0B41
+                0200000000002C41000000410200000000002C419AE8E940020000004EF43441
+                0000D84002000000000040410000D84003000000000040410000D840}
+              Fill.Color = xFF8BB0F5
+              HitTest = False
+              Margins.Left = 16.000000000000000000
+              Margins.Right = 10.000000000000000000
+              Position.X = 210.000000000000000000
+              Size.Width = 14.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              WrapMode = Fit
+            end
+          end
+          object Circle3: TCircle
+            Align = Client
+            Fill.Kind = None
+            HitTest = False
+            Margins.Left = 14.000000000000000000
+            Margins.Top = 14.000000000000000000
+            Margins.Right = 14.000000000000000000
+            Margins.Bottom = 14.000000000000000000
+            Size.Width = 206.000000000000000000
+            Size.Height = 125.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = xFF715EBC
+            Stroke.Thickness = 5.000000000000000000
+            Stroke.Cap = Round
+            object Arc1: TArc
+              Align = Center
+              Margins.Left = 16.000000000000000000
+              Margins.Top = 16.000000000000000000
+              Margins.Right = 16.000000000000000000
+              Margins.Bottom = 16.000000000000000000
+              Size.Width = 103.000000000000000000
+              Size.Height = 103.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Color = xFF81D3C5
+              Stroke.Thickness = 5.000000000000000000
+              StartAngle = 130.000000000000000000
+              EndAngle = -220.000000000000000000
+              object Label33: TLabel
+                Align = Center
+                AutoSize = True
+                StyledSettings = []
+                Size.Width = 57.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Family = 'Roboto'
+                TextSettings.Font.Size = 30.000000000000000000
+                TextSettings.Font.StyleExt = {00050000000000000004000000}
+                TextSettings.FontColor = claWhite
+                TextSettings.WordWrap = False
+                Text = '70%'
+                TabOrder = 1
+              end
+            end
+          end
+          object Layout14: TLayout
+            Align = Bottom
+            Margins.Left = 25.000000000000000000
+            Margins.Right = 25.000000000000000000
+            Margins.Bottom = 10.000000000000000000
+            Position.X = 25.000000000000000000
+            Position.Y = 186.000000000000000000
+            Size.Width = 184.000000000000000000
+            Size.Height = 24.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 2
+            object Label39: TLabel
+              Align = Left
+              AutoSize = True
+              StyledSettings = []
+              Size.Width = 96.000000000000000000
+              Size.Height = 24.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Family = 'Roboto'
+              TextSettings.Font.Size = 11.000000000000000000
+              TextSettings.Font.StyleExt = {00020000000000000004000000}
+              TextSettings.FontColor = xFF98C7F4
+              TextSettings.WordWrap = False
+              Text = '18% from yesterday'
+              TabOrder = 1
+            end
+          end
+          object ShadowEffect5: TShadowEffect
+            Distance = 50.000000000000000000
+            Direction = 135.000000000000000000
+            Softness = 1.600000023841858000
+            Opacity = 0.300000011920929000
+            ShadowColor = claBlack
+          end
+        end
+      end
+    end
+    object Light1: TLight
+      Color = claWhite
+      LightType = Directional
+      SpotCutOff = 180.000000000000000000
+      Width = 1.000000000000000000
+      Height = 1.000000000000000000
+      Depth = 1.000000000000000000
+    end
+    object ShadowEffect8: TShadowEffect
+      Distance = 3.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.300000011920929000
+      Opacity = 0.600000023841857900
+      ShadowColor = claBlack
+    end
+  end
+  object LightMaterialSourceMoon: TLightMaterialSource
+    Diffuse = xFF0F48DC
+    Ambient = xFF0A3C5F
+    Emissive = x000821C0
+    Specular = xFF606060
+    Shininess = 30
+    Left = 592
+    Top = 592
+  end
+  object TimerReset: TTimer
+    Enabled = False
+    Interval = 1500
+    OnTimer = TimerResetTimer
+    Left = 728
+    Top = 592
+  end
+  object LightMaterialSourceClouds: TLightMaterialSource
+    Diffuse = claWhite
+    Ambient = xFF252525
+    Emissive = xFF565656
+    Specular = xFF1F1F1F
+    Shininess = 30
+    Left = 432
+    Top = 592
+  end
+  object TimerRepaint: TTimer
+    Interval = 10
+    OnTimer = TimerRepaintTimer
+    Left = 288
+    Top = 592
+  end
+end
